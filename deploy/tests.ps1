@@ -1,4 +1,4 @@
- Param($sistema = $(throw "Parâmetro $($sistema) deve ser informado"),
+ Param($Sistema = $(throw "Parâmetro -Sistema deve ser informado"),
 	$From,
 	$To
  )
@@ -22,8 +22,8 @@
  
  if($From -eq $null -or $To -eq $null)
  {
-	 $appServiceKeyFrom = $sistema + "-SERVICE-DEPLOY";
-	 $appServiceKeyTo = $sistema + "-SERVICE-HML";
+	 $appServiceKeyFrom = $Sistema + "-SERVICE-DEPLOY";
+	 $appServiceKeyTo = $Sistema + "-SERVICE-HML";
  }
  
 if($appSettings[$appServiceKeyTO] -eq $null -or  $appSettings[$appServiceKeyFrom] -eq $null)
@@ -32,4 +32,19 @@ if($appSettings[$appServiceKeyTO] -eq $null -or  $appSettings[$appServiceKeyFrom
 }
 
 # ./executeDeployInterno $appServiceKeyFrom $appServiceKeyTo
+
+function GetDefaultDeployPath()
+{
+	param($Sistema)
 	
+	$deployPath = $appSettings["TEMPDEPLOYPATH"];
+	
+	if(($Sistema -ne $null) -and ($appSettings["$Sistema-TEMPDEPLOYPATH"] -ne $null))
+	{
+		$deployPath = $appSettings["$Sistema-TEMPDEPLOYPATH"];
+	}
+	return $deployPath
+}
+
+$tese = GetDefaultDeployPath "CREDITO"
+
