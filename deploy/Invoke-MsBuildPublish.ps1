@@ -1,13 +1,17 @@
 Param(
-$WebProject = (throw "Parãmetro -WebProject deve ser informado"),
-$TargetFolder = (throw "Parâmetro -TargetFolder deve ser informado.")
+$WebProject = $(throw "Parâmetro -WebProject deve ser informado"),
+$TargetFolder = $(throw "Parâmetro -TargetFolder deve ser informado.")
 )
 Test-Path $WebProject
-Test-Path $TargetFolder
-if(-not(Test-Path $WebProject) -or -not(Test-Path $TargetFolder) )
+
+if(-not(Test-Path $TargetFolder))
 {
-	throw "-WebProject ou -TargetFolder não existe"
+	ni $TargetFolder -Type directory
+}
+if(-not(Test-Path $WebProject))
+{
+	throw "-WebProject não existe"
 }
 
-"msbuild /t:Build;PipelinePreDeployCopyAllFilesToOneFolder /p:Configuration=Debug;_PackageTempDir=$TargetFolder $WebProject"
-Invoke-Expression "msbuild /t:Build;PipelinePreDeployCopyAllFilesToOneFolder /p:Configuration=Debug;_PackageTempDir=$TargetFolder $WebProject"
+& msbuild /t:Build`;PipelinePreDeployCopyAllFilesToOneFolder /p:Configuration=Debug`;_PackageTempDir=$TargetFolder $WebProject
+#Start-Process "msbuild" -ArgumentList "/t:Build;PipelinePreDeployCopyAllFilesToOneFolder /p:Configuration=Debug;_PackageTempDir=$TargetFolder $WebProject" -NoNewWindow
