@@ -13,5 +13,5 @@ if(-not(Test-Path $WebProject))
 	throw "-WebProject não existe"
 }
 
-& msbuild /t:Package /p:Configuration=Debug`;_PackageTempDir=$TargetFolder $WebProject
+& msbuild /t:Build /p:Configuration=Debug`;OutputPath="$TargetFolder\bin" $WebProject
 #Start-Process "msbuild" -ArgumentList "/t:Build;PipelinePreDeployCopyAllFilesToOneFolder /p:Configuration=Debug;_PackageTempDir=$TargetFolder $WebProject" -NoNewWindow
