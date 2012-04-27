@@ -1,0 +1,2 @@
+C:\Users\wallison.santos\psScripts\testMsbuild\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wallison.santos\psScripts\testMsbuild\obj\Debug\ImportEx1.proj.GenerateResource.Cache

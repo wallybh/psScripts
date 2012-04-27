@@ -1,4 +1,6 @@
 param($path = $(throw "You must specify a config file"))
+
+write-host "foi"
 $global:appSettings = @{}
 $config = [xml](get-content $path)
 foreach ($addNode in $config.configuration.appsettings.add) {

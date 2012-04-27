@@ -1,5 +1,13 @@
 Param([string]$Sistema = "")
 
+function Get-ScriptDirectory
+{
+	$Invocation = (Get-Variable MyInvocation -Scope 1).Value
+	Split-Path $Invocation.MyCommand.Path
+}
+
+$executionPath = get-ScriptDirectory
+
 $LASTEXITCODE = 0;
 
 if(!$appSettings) 
