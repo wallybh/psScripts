@@ -6,6 +6,9 @@ function Get-ScriptDirectory
 	Split-Path $Invocation.MyCommand.Path
 }
 
+#carregando script LoadConfig
+. .\LoadConfig.ps1
+
 $executionPath = get-ScriptDirectory
 
 $LASTEXITCODE = 0;
@@ -13,7 +16,7 @@ $LASTEXITCODE = 0;
 if(!$appSettings) 
 { 
 	write-debug "carregando configurações"
-	.\LoadConfig .\app.config
+	LoadConfig .\app.config
 }
 
 write-warning "Recuperando o source do TFS"
