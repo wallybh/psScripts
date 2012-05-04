@@ -19,9 +19,7 @@ if(-not(Test-Path $WebProject))
 
 
 #quase lá
-& msbuild /t:Build /p:DeployOnBuild=true`;DeployTarget=_CopyWebApplication`;Configuration=Debug`;_PackageTempDir=$TargetFolder`;WebProjectOutputDir=$TargetFolder`;outdir=$TargetFolder\bin $WebProject
-
-
+& msbuild /t:Build`;ResolveReferences /p:DeployOnBuild=true`;DeployTarget=OnlyFilesToRunTheApp`;Configuration=Debug`;_PackageTempDir=$TargetFolder`;WebProjectOutputDir=$TargetFolder`;outdir=$TargetFolder\bin $WebProject
 
 #/p:DeployTarget=MsDeployPublish /p:CreatePackageOnPublish=True /p:MSDeployPublishMethod=InProc 
 

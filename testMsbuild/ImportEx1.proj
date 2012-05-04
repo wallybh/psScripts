@@ -1,15 +1,16 @@
 <Project 
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     
-	<Import Project="$(Proj)"/>
 	<Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
 	
-	<Target Name="BeforeBuild">
+  <Target Name="BeforeBuild">
     <Message Text="##############Before build##################" Importance="high" />
     <RemoveDir Directories="publish" ContinueOnError="true" />
   </Target>
   <Target Name="AfterBuild">
     <Message Text="##############After build##################$(OutputFolder)" Importance="high" />
-    <MSBuild Projects="$(Proj)" Targets="PipelinePreDeployCopyAllFilesToOneFolder" Properties="Configuration=Debug;_PackageTempDir=$(OutputFolder)" />
-	</Target>
+    <MSBuild Projects="$(Proj)"
+           Targets="ResolveReferences;_CopyWebApplication"
+           Properties="WebProjectOutputDir=C:\testesvc\;OutDir=C:\testesvc\bin\" />
+  </Target>
 </Project>

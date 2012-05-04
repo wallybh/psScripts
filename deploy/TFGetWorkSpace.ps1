@@ -1,3 +1,5 @@
-.\LoadConfig .\app.config
+. .\LoadConfig
+
+LoadConfig .\app.config
 
 .\Invoke-TFSGet $appSettings['PATHWORKSPACE']

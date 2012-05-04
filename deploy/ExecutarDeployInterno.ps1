@@ -25,11 +25,22 @@ write-warning "Recuperando o source do TFS"
 if($LASTEXITCODE -ne 0)
 {
 	write-error "Ocorreu um erro ao recuperar os arquivos do TFS (TFGetWorkSpace.ps1)"
+	return
 }
 
 #TODO aqui deve verificar se o sistema foi informado como parametro se sim ele verifica se o sistema está na propriedade ALIASESSISTEMAS 
+
+
 #TODO se não ele deve fazer deploy de todos os sistemas dentro de ALIASESSISTEMAS
-if($Sistema -eq "")
+if($Sistema)
+{
+	if(!($appSettings['ALIASESSISTEMAS'] -contains $Sistema))
+	{
+		WRITE-WARNING "Sistema não está definino na configuração ALIASESSISTEMAS."
+		RETURN
+	}
+}
+else
 {
 	$Sistema = $appSettings['ALIASESSISTEMAS']
 }
