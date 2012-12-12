@@ -1,4 +1,4 @@
-Set-Location "C:\Users\wallison.santos\psScripts"
+Set-Location "C:\Users\wallison.santos\Documents\GitHub"
 
 Import-Module PowerTab
 
