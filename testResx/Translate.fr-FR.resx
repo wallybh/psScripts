@@ -1,0 +1,2605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absoluto" xml:space="preserve">
+    <value>Absolu</value>
+  </data>
+  <data name="Acao" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Acoes" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="AcoesConcluidoSuccess" xml:space="preserve">
+    <value>Actions complétées avec succès!</value>
+  </data>
+  <data name="AcoesCorrentes" xml:space="preserve">
+    <value>Actions en cours</value>
+  </data>
+  <data name="AcoesIneficazes" xml:space="preserve">
+    <value>Actions inefficaces</value>
+  </data>
+  <data name="AcoesNaoExec" xml:space="preserve">
+    <value>Actions non exécutées</value>
+  </data>
+  <data name="AcoesOQue" xml:space="preserve">
+    <value>Actions (Quoi?)</value>
+  </data>
+  <data name="AcoesPendAprov" xml:space="preserve">
+    <value>Actions en attente d'approbation</value>
+  </data>
+  <data name="Acompanhamento" xml:space="preserve">
+    <value>Suivi</value>
+  </data>
+  <data name="AcompImports" xml:space="preserve">
+    <value>Téléchargez suivi</value>
+  </data>
+  <data name="Acumulado" xml:space="preserve">
+    <value>Accumulé</value>
+  </data>
+  <data name="AcumuladoCicloGestao" xml:space="preserve">
+    <value>Accumulé dans le cycle de gestion</value>
+  </data>
+  <data name="Adicional" xml:space="preserve">
+    <value>Supplémentaire</value>
+  </data>
+  <data name="Adicional1" xml:space="preserve">
+    <value>supplément 1</value>
+  </data>
+  <data name="Adicional2" xml:space="preserve">
+    <value>supplément 2</value>
+  </data>
+  <data name="Adicional3" xml:space="preserve">
+    <value>supplément 3</value>
+  </data>
+  <data name="Adicional4" xml:space="preserve">
+    <value>supplément 4</value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Administrateur</value>
+  </data>
+  <data name="AdmName" xml:space="preserve">
+    <value>Administrateur système</value>
+  </data>
+  <data name="Alcancada" xml:space="preserve">
+    <value>Réalisé</value>
+  </data>
+  <data name="AllRecord" xml:space="preserve">
+    <value>Tous les dossiers ...</value>
+  </data>
+  <data name="Alterar" xml:space="preserve">
+    <value>Changer</value>
+  </data>
+  <data name="Amarelo" xml:space="preserve">
+    <value>Jaune</value>
+  </data>
+  <data name="AnaliseCausas" xml:space="preserve">
+    <value>Analyse des causes</value>
+  </data>
+  <data name="AnaliseGrafica" xml:space="preserve">
+    <value>Analyse graphique</value>
+  </data>
+  <data name="AnaliseHistContas" xml:space="preserve">
+    <value>Analyse de l'historique des comptes</value>
+  </data>
+  <data name="AnaliseHistEntidade" xml:space="preserve">
+    <value>Analyse de l'historique des entités</value>
+  </data>
+  <data name="AnaliseMatricial" xml:space="preserve">
+    <value>Analyse de la matrice</value>
+  </data>
+  <data name="Andamento" xml:space="preserve">
+    <value>Téléchargez évolution</value>
+  </data>
+  <data name="Ano" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="Anual" xml:space="preserve">
+    <value>Annuel</value>
+  </data>
+  <data name="AppAnaliseCausas" xml:space="preserve">
+    <value>Cet écran n'est accessible que par le biais du tableau de bord des objectifs</value>
+  </data>
+  <data name="AppContramedidas" xml:space="preserve">
+    <value>Cet écran n'est accessible que par l'analyse des causes.</value>
+  </data>
+  <data name="AppDuplicateLogin" xml:space="preserve">
+    <value>Votre code utilisateur est déjà utilisé sur un autre ordinateur. Consultez votre administrateur système.</value>
+  </data>
+  <data name="AppGuest" xml:space="preserve">
+    <value>Utilisateur non connecté, merci de vous connecter.</value>
+  </data>
+  <data name="AppMenu" xml:space="preserve">
+    <value>Erreur lors de la création du menu. SVP contactez l'administrateur</value>
+  </data>
+  <data name="AppNoDuplicateLogin" xml:space="preserve">
+    <value>Connection en double non autorisée.</value>
+  </data>
+  <data name="AppPageLocked" xml:space="preserve">
+    <value>Pas d'autorisation pour cette fonctionnalité. Contactez l'administrateur, s'il vous plaît.</value>
+  </data>
+  <data name="AppSessionExp" xml:space="preserve">
+    <value>Session a expiré, merci de vous connecter à nouveau.</value>
+  </data>
+  <data name="Aprovar" xml:space="preserve">
+    <value>Approuver</value>
+  </data>
+  <data name="AprovCancel" xml:space="preserve">
+    <value>Approuver annulation</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Secteur</value>
+  </data>
+  <data name="AreaInativa" xml:space="preserve">
+    <value>Cette secteur n'est pas active</value>
+  </data>
+  <data name="AreaPropria" xml:space="preserve">
+    <value>Espace personnel</value>
+  </data>
+  <data name="AreaRelacionada" xml:space="preserve">
+    <value>Secteur lié</value>
+  </data>
+  <data name="Areas" xml:space="preserve">
+    <value>Secteurs (structure hiérarchique)</value>
+  </data>
+  <data name="AreaSel" xml:space="preserve">
+    <value>{0} secteur sélectionnée (s)</value>
+  </data>
+  <data name="AreaSup" xml:space="preserve">
+    <value>Secteur supérieure</value>
+  </data>
+  <data name="AreaSupRecursiva" xml:space="preserve">
+    <value>La secteur ne peut être attribuée en tant que secteur supérieure à elle-même.</value>
+  </data>
+  <data name="ArvoreConta" xml:space="preserve">
+    <value>Arbre des comptes</value>
+  </data>
+  <data name="ArvoreContaTitulo" xml:space="preserve">
+    <value>Arbre comptes enregistrés</value>
+  </data>
+  <data name="ArvoreEntidade" xml:space="preserve">
+    <value>Arbre des entités</value>
+  </data>
+  <data name="ArvoreEntidadeTitulo" xml:space="preserve">
+    <value>Arbre entités enregistrées</value>
+  </data>
+  <data name="ArvoreGrupoXConta" xml:space="preserve">
+    <value>Arbre des groupes de comptes X </value>
+  </data>
+  <data name="Associado" xml:space="preserve">
+    <value>Associer</value>
+  </data>
+  <data name="AssociarKPI" xml:space="preserve">
+    <value>Lien indicateur(s)</value>
+  </data>
+  <data name="Ativo" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Atrasada" xml:space="preserve">
+    <value>En retard</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>Joindre</value>
+  </data>
+  <data name="Avancar" xml:space="preserve">
+    <value>Transmettre</value>
+  </data>
+  <data name="Azul" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="BaseSolucoesImplem" xml:space="preserve">
+    <value>Base de données des solutions mise en œuvre</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Entre champ</value>
+  </data>
+  <data name="Bimestre" xml:space="preserve">
+    <value>Deux mois</value>
+  </data>
+  <data name="Branco" xml:space="preserve">
+    <value>Blanc</value>
+  </data>
+  <data name="CadastroCausa" xml:space="preserve">
+    <value>Inscription des données de base</value>
+  </data>
+  <data name="CalcData" xml:space="preserve">
+    <value>Attendez, calcul des données en cours ...</value>
+  </data>
+  <data name="Calculado" xml:space="preserve">
+    <value>Calculé</value>
+  </data>
+  <data name="CalculoDesvio" xml:space="preserve">
+    <value>Calcul d'écart</value>
+  </data>
+  <data name="CancelAcao" xml:space="preserve">
+    <value>Annuler l'action</value>
+  </data>
+  <data name="CancelAcoes" xml:space="preserve">
+    <value>Annuler Actions</value>
+  </data>
+  <data name="Cancelada" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="Canceladas" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Catégorie</value>
+  </data>
+  <data name="Categoria1" xml:space="preserve">
+    <value>Catégorie 1</value>
+  </data>
+  <data name="Categoria2" xml:space="preserve">
+    <value>Catégorie 2</value>
+  </data>
+  <data name="Causa" xml:space="preserve">
+    <value>Causer</value>
+  </data>
+  <data name="CausaCombo" xml:space="preserve">
+    <value>Cause (peut rester blanc)</value>
+  </data>
+  <data name="CausaRaiz" xml:space="preserve">
+    <value>Causes profondes</value>
+  </data>
+  <data name="CausaRelac" xml:space="preserve">
+    <value>Cause liée :</value>
+  </data>
+  <data name="CentroCusto" xml:space="preserve">
+    <value>Centre de coûts</value>
+  </data>
+  <data name="ChangePeriodo" xml:space="preserve">
+    <value>Modifier le cycle de gestion</value>
+  </data>
+  <data name="ChartAcompAcoes" xml:space="preserve">
+    <value>Actions de suivi graphique</value>
+  </data>
+  <data name="ChartAcompMeta" xml:space="preserve">
+    <value>Graphique de suivi des objectifs</value>
+  </data>
+  <data name="ChartStatusAcao" xml:space="preserve">
+    <value>Graphique de l'état des actions</value>
+  </data>
+  <data name="Cinza" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CodigoAuto" xml:space="preserve">
+    <value>Code automatique ...</value>
+  </data>
+  <data name="Colaborador" xml:space="preserve">
+    <value>Employé</value>
+  </data>
+  <data name="Colaboradores" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="Como" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Comparador" xml:space="preserve">
+    <value>Comparateur</value>
+  </data>
+  <data name="Composicao" xml:space="preserve">
+    <value>Composition</value>
+  </data>
+  <data name="Concluida" xml:space="preserve">
+    <value>Conclu</value>
+  </data>
+  <data name="ConcluidaAtraso" xml:space="preserve">
+    <value>Cloturé en retard</value>
+  </data>
+  <data name="ConcluidaPrazo" xml:space="preserve">
+    <value>Clôturé  à temps</value>
+  </data>
+  <data name="Concluido" xml:space="preserve">
+    <value>Conclu</value>
+  </data>
+  <data name="ConcluirAcao" xml:space="preserve">
+    <value>Conclure action</value>
+  </data>
+  <data name="ConcluirAcoes" xml:space="preserve">
+    <value>Conclure Actions</value>
+  </data>
+  <data name="ConfigExibicao" xml:space="preserve">
+    <value>Réglage de l'affichage des valeurs</value>
+  </data>
+  <data name="ConfirmAprovAcaoMsg" xml:space="preserve">
+    <value>Voulez-vous approuver le(s) action(s) sélectionnée (s)?</value>
+  </data>
+  <data name="ConfirmConcluirAcao" xml:space="preserve">
+    <value>Voulez-vous clôturer le(s) action(s) sélectionnée (s)?</value>
+  </data>
+  <data name="ConfirmDelMsg" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir supprimer l'entrée sélectionnée?</value>
+  </data>
+  <data name="ConfirmGC" xml:space="preserve">
+    <value>Voulez-vous enregistrer les causes et contre-mesures dans la base de données de gestion des connaissances?</value>
+  </data>
+  <data name="ConfirmGerMatriz" xml:space="preserve">
+    <value>Ce processus peut prendre plusieurs minutes. Voulez-vous continuer?</value>
+  </data>
+  <data name="ConfirmImportarEstruturaHierarquica" xml:space="preserve">
+    <value>Voulez-vous télécharger la structure hiérarchique?</value>
+  </data>
+  <data name="ConfirmNegarAcaoMsg" xml:space="preserve">
+    <value>Voulez-vous ignorer l'action choisie (s)?</value>
+  </data>
+  <data name="ConfirmNegarSolicitacaoMsg" xml:space="preserve">
+    <value>Voulez-vous ignorer l'annulation de l'action sélectionnée?</value>
+  </data>
+  <data name="ConfirmRecriarVotacao" xml:space="preserve">
+    <value>Voulez-vous créer un nouveau sondage?</value>
+  </data>
+  <data name="ConfirmResetCustom" xml:space="preserve">
+    <value>Cette action réinitialisera toutes les autorisations appliquées ci-dessous, voulez-vous continuer?</value>
+  </data>
+  <data name="Conta" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="Contas" xml:space="preserve">
+    <value>Comptes</value>
+  </data>
+  <data name="Contramedida" xml:space="preserve">
+    <value>Contre-mesure</value>
+  </data>
+  <data name="Contramedidas" xml:space="preserve">
+    <value>Contre-mesures</value>
+  </data>
+  <data name="CotacaoMoeda" xml:space="preserve">
+    <value>Quote de la devise</value>
+  </data>
+  <data name="CotacaoMoedaDenominador" xml:space="preserve">
+    <value>Dénominateur quote des devises</value>
+  </data>
+  <data name="CotacaoMoedaDestino" xml:space="preserve">
+    <value>Valeur de 1 {0} dans:</value>
+  </data>
+  <data name="CotacaoMoedaNumerador" xml:space="preserve">
+    <value>Numérateur  quote des devises</value>
+  </data>
+  <data name="CreatingExcel" xml:space="preserve">
+    <value>Patientez SVP pendant l'exécution d'Excel</value>
+  </data>
+  <data name="CriadoPor" xml:space="preserve">
+    <value>Créé par</value>
+  </data>
+  <data name="Criador" xml:space="preserve">
+    <value>Créateur</value>
+  </data>
+  <data name="CriadorAcao" xml:space="preserve">
+    <value>Créateur d'action</value>
+  </data>
+  <data name="CriarVotacao" xml:space="preserve">
+    <value>Créer un sondage</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DataFimRelMaior" xml:space="preserve">
+    <value>Date de fin effective doit être inférieure à la date d'aujourd'hui.</value>
+  </data>
+  <data name="DataIniMaior" xml:space="preserve">
+    <value>Date de début doit être inférieure à la date de fin.</value>
+  </data>
+  <data name="DataIniRelMaior" xml:space="preserve">
+    <value>Date de début effective devrait être inférieure à la date de fin effective.</value>
+  </data>
+  <data name="DataProvider" xml:space="preserve">
+    <value>Fournisseur de données</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>Données de base supprimées avec succès</value>
+  </data>
+  <data name="Descricao" xml:space="preserve">
+    <value>Désignation / Description</value>
+  </data>
+  <data name="Desdobramento" xml:space="preserve">
+    <value>Déploiement</value>
+  </data>
+  <data name="Detalhes" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="DetalhesSolucaoSelecAcima" xml:space="preserve">
+    <value>Détails de la solution choisie</value>
+  </data>
+  <data name="Diario" xml:space="preserve">
+    <value>Journalier</value>
+  </data>
+  <data name="DiasAntecedencia" xml:space="preserve">
+    <value>Jours à l'avance</value>
+  </data>
+  <data name="DiasAntes" xml:space="preserve">
+    <value>Jour (s) avant</value>
+  </data>
+  <data name="Diretriz" xml:space="preserve">
+    <value>Ligne directrice</value>
+  </data>
+  <data name="Diretrizes" xml:space="preserve">
+    <value>Directives</value>
+  </data>
+  <data name="Distribuicao" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="Divisao" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="DtCriacao" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="DtCriacaoAcao" xml:space="preserve">
+    <value>Date de création de l'action</value>
+  </data>
+  <data name="DtFim" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="DtFimPlanejada" xml:space="preserve">
+    <value>Date de fin prévue</value>
+  </data>
+  <data name="DtFimRealizada" xml:space="preserve">
+    <value>Date de fin réelle</value>
+  </data>
+  <data name="DtFimWorkflow" xml:space="preserve">
+    <value>Date de fin du flux de travail</value>
+  </data>
+  <data name="DtIndice" xml:space="preserve">
+    <value>Date de l'index</value>
+  </data>
+  <data name="DtIni" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="DtIniPlanejada" xml:space="preserve">
+    <value>Date de début prévue</value>
+  </data>
+  <data name="DtIniRealizada" xml:space="preserve">
+    <value>Date de début réelle</value>
+  </data>
+  <data name="DtIniWorkflow" xml:space="preserve">
+    <value>Date de début du flux de travail</value>
+  </data>
+  <data name="DtRef" xml:space="preserve">
+    <value>Date de Référence</value>
+  </data>
+  <data name="DtRefCalc" xml:space="preserve">
+    <value>Date de référence ne peut pas être calculé, l'objectif n'existe pas.</value>
+  </data>
+  <data name="DtRefNaoCompativel" xml:space="preserve">
+    <value>Date de référence n'est pas calculée en fonction de la fréquence de suivi de l'indicateur</value>
+  </data>
+  <data name="DtTerminoEstimado" xml:space="preserve">
+    <value>Estimation Fin</value>
+  </data>
+  <data name="DtWorkflow" xml:space="preserve">
+    <value>Date de flux de travail</value>
+  </data>
+  <data name="Duracao" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="DWJPEG" xml:space="preserve">
+    <value>Télécharger l'image JPEG</value>
+  </data>
+  <data name="DWPDF" xml:space="preserve">
+    <value>Télécharger le document PDF</value>
+  </data>
+  <data name="DWPNG" xml:space="preserve">
+    <value>Télécharger l'image PNG</value>
+  </data>
+  <data name="DWSVG" xml:space="preserve">
+    <value>Télécharger l'image SVG vectorisée</value>
+  </data>
+  <data name="EdicaoObrigatoria" xml:space="preserve">
+    <value>Seul 1 voyant peut être modifié.</value>
+  </data>
+  <data name="Editar" xml:space="preserve">
+    <value>Éditer</value>
+  </data>
+  <data name="EditarPerfil" xml:space="preserve">
+    <value>Modifier le profil</value>
+  </data>
+  <data name="Efetividade" xml:space="preserve">
+    <value>Efficacité</value>
+  </data>
+  <data name="EfetividadeAreas" xml:space="preserve">
+    <value>Efficacité (certains secteurs)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailAlert" xml:space="preserve">
+    <value>Alerte E-mail</value>
+  </data>
+  <data name="EmAndamento" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="EmExecucao" xml:space="preserve">
+    <value>En cours d'exécution</value>
+  </data>
+  <data name="EmNegociacao" xml:space="preserve">
+    <value>En cours de négociation</value>
+  </data>
+  <data name="EmRisco" xml:space="preserve">
+    <value>En péril</value>
+  </data>
+  <data name="Entidade" xml:space="preserve">
+    <value>Entité</value>
+  </data>
+  <data name="Entidades" xml:space="preserve">
+    <value>Entités</value>
+  </data>
+  <data name="EntidadeSel" xml:space="preserve">
+    <value>{0} entité(s) sélectionnée(s)</value>
+  </data>
+  <data name="EntidadeSup" xml:space="preserve">
+    <value>Entité Supérieure</value>
+  </data>
+  <data name="EntidadeSupRecursiva" xml:space="preserve">
+    <value>L'entité ne peut être attribué en tant que supérieur à elle-même.</value>
+  </data>
+  <data name="EnviarCausas" xml:space="preserve">
+    <value>Envoyer les causes vers le  plan d'action</value>
+  </data>
+  <data name="ErrCreateProfile" xml:space="preserve">
+    <value>Erreur lors de la création du profil utilisateur. Contactez l'administrateur s'il vous plaît</value>
+  </data>
+  <data name="Erro" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="ErroCausas" xml:space="preserve">
+    <value>Erreur lors de l'insertion des causes</value>
+  </data>
+  <data name="Estoque" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Evolucao" xml:space="preserve">
+    <value>Évolution</value>
+  </data>
+  <data name="EvolucaoStatus" xml:space="preserve">
+    <value>Evolution statut (général)</value>
+  </data>
+  <data name="ExcluirCausas" xml:space="preserve">
+    <value>Supprimer les causes</value>
+  </data>
+  <data name="Execucao" xml:space="preserve">
+    <value>Exécution</value>
+  </data>
+  <data name="Executada" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
+  <data name="ExecutadaAtraso" xml:space="preserve">
+    <value>Terminé avec retard</value>
+  </data>
+  <data name="ExecutingImport" xml:space="preserve">
+    <value>Le téléchargement est en cours d'exécution en arrière-plan. Pour suivre l'exécution cliquez sur  "suivi ".</value>
+  </data>
+  <data name="Exibida" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="ExistePeriodoVigente" xml:space="preserve">
+    <value>La cycle de gestion actuel sera arrêté. Voulez-vous continuer?</value>
+  </data>
+  <data name="ExisteResponsavel" xml:space="preserve">
+    <value>Le salarié, numéro d'enregistrement {0} - {1} est déjà responsable de ce secteur.</value>
+  </data>
+  <data name="Expandir" xml:space="preserve">
+    <value>Étendre</value>
+  </data>
+  <data name="ExportBtnTitle" xml:space="preserve">
+    <value>Exporter graphique vers ...</value>
+  </data>
+  <data name="ExportLayout" xml:space="preserve">
+    <value>Télécharger la présentation</value>
+  </data>
+  <data name="FaixaFarol" xml:space="preserve">
+    <value>Rang des voyants</value>
+  </data>
+  <data name="Farois" xml:space="preserve">
+    <value>Voyant</value>
+  </data>
+  <data name="Farol" xml:space="preserve">
+    <value>Voyant</value>
+  </data>
+  <data name="Farol1" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="Farol2" xml:space="preserve">
+    <value>Jaune</value>
+  </data>
+  <data name="Farol3" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="Farol4" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="Farol5" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="Farol6" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Farol7" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="Farol8" xml:space="preserve">
+    <value>Blanc</value>
+  </data>
+  <data name="FatorConversao" xml:space="preserve">
+    <value>Facteur de conversion</value>
+  </data>
+  <data name="FatorPeriodo" xml:space="preserve">
+    <value>Facteur  période</value>
+  </data>
+  <data name="Fechado" xml:space="preserve">
+    <value>Fermé</value>
+  </data>
+  <data name="FechamentoPeriodo" xml:space="preserve">
+    <value>Période de clôture</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Dossier</value>
+  </data>
+  <data name="FileNotSend" xml:space="preserve">
+    <value>Fichier n'a pas été envoyé.</value>
+  </data>
+  <data name="Filial" xml:space="preserve">
+    <value>Branche</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrer</value>
+  </data>
+  <data name="FilterOnOff" xml:space="preserve">
+    <value>Filtrez Marche / Arrêt</value>
+  </data>
+  <data name="Fim" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="FimAte" xml:space="preserve">
+    <value>Fin (pour)</value>
+  </data>
+  <data name="Finalizar" xml:space="preserve">
+    <value>Finaliser</value>
+  </data>
+  <data name="FKAcaoCausa" xml:space="preserve">
+    <value>Cause {0} ne peut pas être supprimé car il ya des actions liées.</value>
+  </data>
+  <data name="FKDel" xml:space="preserve">
+    <value>Il existe des valeurs qui dépendend de {0}. Voulez-vous touts supprimer ?</value>
+  </data>
+  <data name="FKNoDel" xml:space="preserve">
+    <value>Impossible de supprimer {0}. Des valeurs existent.</value>
+  </data>
+  <data name="FKVotacaoCausa" xml:space="preserve">
+    <value>Cause {0} ne peut pas être supprimé car il y a des sondages liés</value>
+  </data>
+  <data name="FonteDados" xml:space="preserve">
+    <value>Source des données</value>
+  </data>
+  <data name="Forecast1" xml:space="preserve">
+    <value>Prévision1</value>
+  </data>
+  <data name="Forecast2" xml:space="preserve">
+    <value>Prévision2</value>
+  </data>
+  <data name="Forecasts" xml:space="preserve">
+    <value>Prévisions</value>
+  </data>
+  <data name="ForgotPsw" xml:space="preserve">
+    <value>Mot de passe oublié</value>
+  </data>
+  <data name="Formacao" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="Formula" xml:space="preserve">
+    <value>Formule</value>
+  </data>
+  <data name="FrequenciaAcomp" xml:space="preserve">
+    <value>Fréquence du suivi</value>
+  </data>
+  <data name="Funcionalidade" xml:space="preserve">
+    <value>Fonctionnalité</value>
+  </data>
+  <data name="Gasto" xml:space="preserve">
+    <value>Dépense</value>
+  </data>
+  <data name="Gerenciar" xml:space="preserve">
+    <value>Gérer</value>
+  </data>
+  <data name="GestaoConhecimento" xml:space="preserve">
+    <value>Gestion des connaissances</value>
+  </data>
+  <data name="GlossarioMetas" xml:space="preserve">
+    <value>Glossaire des objectifs</value>
+  </data>
+  <data name="Grandeza" xml:space="preserve">
+    <value>Unité de base SI</value>
+  </data>
+  <data name="GrandezaBase" xml:space="preserve">
+    <value>Référence de l'unité de base SI</value>
+  </data>
+  <data name="GrandezaItemOne" xml:space="preserve">
+    <value>Au moins une unité de base SI doit être inséré.</value>
+  </data>
+  <data name="GrandezaItens" xml:space="preserve">
+    <value>Articles unité de base du SI</value>
+  </data>
+  <data name="Grupo" xml:space="preserve">
+    <value>Groupe</value>
+  </data>
+  <data name="GrupoConta" xml:space="preserve">
+    <value>Groupe / Compte</value>
+  </data>
+  <data name="GrupoContaSel" xml:space="preserve">
+    <value>{0} Groupe / Compte (s) sélectionné (s)</value>
+  </data>
+  <data name="GrupoContaSupRecursiva" xml:space="preserve">
+    <value>Groupe / compte ne peut pas être désigné comme supérieur à lui-même.</value>
+  </data>
+  <data name="GrupoIndicador" xml:space="preserve">
+    <value>Groupe indicateur</value>
+  </data>
+  <data name="GrupoIndicadores" xml:space="preserve">
+    <value>Groupe indicateur</value>
+  </data>
+  <data name="GrupoIndicadorSup" xml:space="preserve">
+    <value>Groupe Témoin supérieur</value>
+  </data>
+  <data name="GrupoSuperior" xml:space="preserve">
+    <value>Groupe Supérieur</value>
+  </data>
+  <data name="GrupoUsuario" xml:space="preserve">
+    <value>Groupe d'utilisateurs</value>
+  </data>
+  <data name="GrupoXConta" xml:space="preserve">
+    <value>Groupe X Compte X</value>
+  </data>
+  <data name="Habilitado" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="IC" xml:space="preserve">
+    <value>Elément de commande</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Identifiant</value>
+  </data>
+  <data name="Identificacao" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="IdNull" xml:space="preserve">
+    <value>Identifiant obligatoire</value>
+  </data>
+  <data name="Igual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="ImpAreaCodExist" xml:space="preserve">
+    <value>Indicatif secteur {0} déjà renseigné sur la ligne {1}.</value>
+  </data>
+  <data name="ImpCmp" xml:space="preserve">
+    <value>Champs</value>
+  </data>
+  <data name="ImpCmpAreas" xml:space="preserve">
+    <value>Code Secteur;Désignation Secteur;Code Section;Upper Code Secteur</value>
+  </data>
+  <data name="ImpCmpColaboradores" xml:space="preserve">
+    <value>Numéro d'enregistrement; nom; e-mail; code secteur; responsable secteur; actions du flux de travail; actif</value>
+  </data>
+  <data name="ImpCmpEntidade" xml:space="preserve">
+    <value>Entité arborescence de code; Code de l'entité, Description de l'entité; Code de l'entité supérieure; Entité Responsable, dans un domaine connexe; Type </value>
+  </data>
+  <data name="ImpCmpForecasts" xml:space="preserve">
+    <value>Code objectif; N° Prévision; date de référence; Valeur</value>
+  </data>
+  <data name="ImpCmpGrupoConta" xml:space="preserve">
+    <value>Arbre de code de compte; groupe Code, la description du groupe / compte; Code du groupe supérieur; Responsable de groupe / compte; Type</value>
+  </data>
+  <data name="ImpCmpMetasCompartilhadas" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;N° enregistrement reponsable objectifs;N° d'enregistrement du fournisseur de données;Code Objectif partagé;Goal Weight</value>
+  </data>
+  <data name="ImpCmpMetasCompostas" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;N° enregistrement reponsable objectifs;N° enregistrement du fournisseur de données;Code Indicateur;Guideline Code;Upper Code Objectif;Goal Objective;Planned Start date;Planned End date;Goal Value;Goal weight;Accumulation Type;Goal Deviation needs to be treated?;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpCmpMetasConsolidadoras" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;Goal resposnible registration number;N° d'enregistrement du fournisseur de données;Code Indicateur;Guideline Code;Upper Code Objectif;Goal Objective;Planned Start date;Planned End date;Goal value;Goal weight;Accumulation type;Goal Deviation needs to be treated?;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpCmpMetasIndividuais" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;N° enregistrement reponsable objectifs;N° d'enregistrement du fournisseur de données;Code Indicateur;Guideline Code;Upper Code Objectif;Goal Objective;Start Date;End Date;Goal Value;Goal Weight;Accumulation type;Value Definition Type;Goal deviation needs to be treated?;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpCmpMetasProjeto" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;N° enregistrement reponsable objectifs;N° enregistrement du fournisseur de données;Indicador Code;Guideline code;Upper Code Objectif;Goal Objective;Planned Start date;Planned End date;Goal Weight;Goal deviation needs to be treated?;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpCmpMetasSimilares" xml:space="preserve">
+    <value>Code Objectif;Code Secteur;Goal Reponsible Registration Code;Code-enregistrement du fournisseur de données;Code Objectif similaire;Goal Value;Goal Weight; Goal deviation needs to be treated?</value>
+  </data>
+  <data name="ImpCmpPlanosAcao" xml:space="preserve">
+    <value>Action Code;Code Objectif;Code enregistrement créateur actions;Action Resposnible registration code;Action Source;Planned Start date;Planned End date;Actual Start date;Actual End date;What (Action Description);How;Where;Email Alert;Days in Advance (Email Alert);Observations</value>
+  </data>
+  <data name="ImpCmpValoresMetas" xml:space="preserve">
+    <value>Code objectif, date de référence; Valeur planifiée; valeur réelle</value>
+  </data>
+  <data name="ImpEntidadeCodExist" xml:space="preserve">
+    <value>L'entité avec le code {0} a déjà été informé à la ligne {1} de ce fichier.</value>
+  </data>
+  <data name="ImpExAreas" xml:space="preserve">
+    <value>101;  secteur de test ; 2; 100</value>
+  </data>
+  <data name="ImpExColaboradores" xml:space="preserve">
+    <value>COD_12;exemple nom;votrenom@mereoconsulting.com.br;11005;1;0;1</value>
+  </data>
+  <data name="ImpExEntidade" xml:space="preserve">
+    <value>AE01; 1.3.2.1; description; 1.3.2; MT01, 10011, 1</value>
+  </data>
+  <data name="ImpExForeCasts" xml:space="preserve">
+    <value>M1425;1;01/2012;26,00</value>
+  </data>
+  <data name="ImpExGrupoConta" xml:space="preserve">
+    <value>AC02; 1.2.1; description; 1,2; MT01, 1</value>
+  </data>
+  <data name="ImpExIndicadores" xml:space="preserve">
+    <value>100; exemple indicateur; 1; FXF01; 1; 1;;1</value>
+  </data>
+  <data name="ImpExMatrizEstoque" xml:space="preserve">
+    <value>;;;;;;;;;;;;;;;;;;</value>
+  </data>
+  <data name="ImpExMatrizGasto" xml:space="preserve">
+    <value>;;;;;;;;;;;;;;;;;;;;;;;</value>
+  </data>
+  <data name="ImpExMatrizProducao" xml:space="preserve">
+    <value>;;;;;;;;;;</value>
+  </data>
+  <data name="ImpExMatrizReceita" xml:space="preserve">
+    <value>;;;;;;;;;;;;;;;;;;</value>
+  </data>
+  <data name="ImpExMetasIndividuais" xml:space="preserve">
+    <value>MET_1234;11006;12892;10341;1;1;;exemple objectifs;20120101;20121231;25,72;30;3;2;1;;</value>
+  </data>
+  <data name="ImpExPlanosAcao" xml:space="preserve">
+    <value>COD_4123;MET_07274;12892;11319;1;20120101;20121201;20120303;20120302;Exemple Action;;;1;0;</value>
+  </data>
+  <data name="ImpExValoresMetas" xml:space="preserve">
+    <value>MET_1253;12012;25,1;23</value>
+  </data>
+  <data name="ImpFmt" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ImpFmtAreas" xml:space="preserve">
+    <value>Texte(50);Texte(100);Texte(10);Texte(20)</value>
+  </data>
+  <data name="ImpFmtColaboradores" xml:space="preserve">
+    <value>Texte(20);Texte(100);Texte(100);Texte(20);Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtEntidade" xml:space="preserve">
+    <value>Texte (10); texte (50); texte (200); texte (50); texte (20); texte (50); nombre;</value>
+  </data>
+  <data name="ImpFmtForecasts" xml:space="preserve">
+    <value>Texte (20);Numéro;Variable;Numéro</value>
+  </data>
+  <data name="ImpFmtGrupoConta" xml:space="preserve">
+    <value>Texte (10); texte (10); texte (100); texte (10); texte (10); nombre;</value>
+  </data>
+  <data name="ImpFmtIndicadores" xml:space="preserve">
+    <value>Texte(10);Texte(100);Texte(10);Texte(10);Texte(10);Numéro;Texte(100);Numéro</value>
+  </data>
+  <data name="ImpFmtMatrizEstoque" xml:space="preserve">
+    <value>Texte (10);Texte (10);Texte (50);Texte Variable;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtMatrizGasto" xml:space="preserve">
+    <value>Texte (10);Texte (10);Texte (50);Texte Variable;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtMatrizProducao" xml:space="preserve">
+    <value>Texte (10);Texte (10);Texte (50);Texte Variable;Texte (10);Numéro;Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtMatrizReceita" xml:space="preserve">
+    <value>Texte (10);Texte (10);Texte (50);Texte Variable;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro;Texte (10);Numéro;Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtMetasCompartilhadas" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(20);Numéro</value>
+  </data>
+  <data name="ImpFmtMetasCompostas" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(10);Texte(10);Texte(20);Texte(200);YYYYMMDD;YYYYMMDD;Numéro;Numéro;Numéro;Numéro;Texte(100);Texte(100)</value>
+  </data>
+  <data name="ImpFmtMetasConsolidadoras" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(10);Texte(10);Texte(20);Texte(200);YYYYMMDD;YYYYMMDD;Numéro;Numéro;Numéro;Numéro;Texte(100);Texte(100)</value>
+  </data>
+  <data name="ImpFmtMetasIndividuais" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(10);Texte(10);Texte(20);Texte(200);YYYYMMDD;YYYYMMDD;Numéro;Numéro;Numéro;Numéro;Numéro;Texte(100);Texte(100)</value>
+  </data>
+  <data name="ImpFmtMetasProjeto" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(10);Texte(10);Texte(20);Texte(200);YYYYMMDD;YYYYMMDD;Numéro;Numéro;Texte(100);Texte(100)</value>
+  </data>
+  <data name="ImpFmtMetasSimilares" xml:space="preserve">
+    <value>Texte(20);Texte(50);Texte(20);Texte(20);Texte(20);Numéro;Numéro;Numéro</value>
+  </data>
+  <data name="ImpFmtPlanosAcao" xml:space="preserve">
+    <value>Texte (10);Texte (20);Texte (20);Texte (20);Numéro;YYYYMMDD;YYYYMMDD;YYYYMMDD;YYYYMMDD;Texte (300);Texte (300);Texte (300);Numéro;Numéro;Texte (300)</value>
+  </data>
+  <data name="ImpFmtValoresMetas" xml:space="preserve">
+    <value>Texte (20);Numéro;Variable;Numéro</value>
+  </data>
+  <data name="ImpGrupoContaCodExist" xml:space="preserve">
+    <value>Le code de groupe / compte avec {0} a déjà été informé de la ligne {1} de ce fichier.</value>
+  </data>
+  <data name="ImpHdrAreas" xml:space="preserve">
+    <value>Code Secteur *;Désignation Secteur *;Code Section *;Upper Code Secteur</value>
+  </data>
+  <data name="ImpHdrColaboradores" xml:space="preserve">
+    <value>Numéro d'enregistrement  salarié *;  Nom*; Email *; Code secteur*; Responsable secteur*; Actions du flux de travail*; Actif*</value>
+  </data>
+  <data name="ImpHdrEntidade" xml:space="preserve">
+    <value>* Code de l'entité arbre; * Type: * Code entité; description de l'entité *; Code de l'entité supérieure; * Entité Responsable, dans un domaine connexe</value>
+  </data>
+  <data name="ImpHdrForecasts" xml:space="preserve">
+    <value>Code Objectif *;Forecast Number *;Date de Référence *;Value *</value>
+  </data>
+  <data name="ImpHdrGrupoConta" xml:space="preserve">
+    <value>Code de compte * arbre; * Code du groupe, description du groupe / * compte; Code du groupe supérieur; Responsable de groupe / compte *; * Type</value>
+  </data>
+  <data name="ImpHdrMetasCompartilhadas" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;N° enregistrement reponsable objectifs *;N° d'enregistrement du fournisseur de données *;Code Objectif partagé *;Goal Weight *</value>
+  </data>
+  <data name="ImpHdrMetasCompostas" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;N° enregistrement reponsable objectifs *;N° enregistrement du fournisseur de données *;Code Indicateur *;Guideline Code *;Upper Code Objectif;Goal Objetive *;Planned Start Date *;Planned End Date *;Goal Value;Goal Weight *;Accumulation type *;Goal Deviation needs to be treated? *;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpHdrMetasConsolidadoras" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;N° enregistrement reponsable objectifs *;N° enregistrement du fournisseur de données *;Code Indicateur *;Guideline Code *;Upper Code Objectif;Goal Objetive *;Planned Start Date *;Planned End Date *;Goal Value;Goal Weight *;Accumulation type *;Goal Deviation needs to be treated? *;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpHdrMetasIndividuais" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;N° enregistrement reponsable objectifs *;N° d'enregistrement du fournisseur de données*;Code Indicateur *;Policy Code *;Upper Code Objectif;Goal Objective *;Planned Start Date *;Planned End Date *;Goal Value (*);Goal Weight *;Accumulation Type *;Goal Definition Type *;Goal deviation needs to be treated? *;Data Source;Memory Calculation</value>
+  </data>
+  <data name="ImpHdrMetasProjeto" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;N° enregistrement reponsable objectifs *;N° d'enregistrement du fournisseur de données *;Code Indicateur *;Guideline code *;Uppor Code Objectif;Goal Objective *;Planned Start Date *;Planned End Date *;Goal Weight *;Goal Deviation needs to be treated? *;Data source;Memory Calculation</value>
+  </data>
+  <data name="ImpHdrMetasSimilares" xml:space="preserve">
+    <value>Code Objectif *;Code Secteur *;Code enregistrement reponsable objectifs *;Code d'enregistrement du fournisseur de données *;Code Objectif similaire *;Valeur Objectif;Poids objectif *;Ecart objectif doit être traité ? *</value>
+  </data>
+  <data name="ImpHdrPlanosAcao" xml:space="preserve">
+    <value>Code Action *;Code Objectif *;N° enregistrement Créateur Action*;N° enregistrement Responsable Action *;Source Action *;Date de début planifiée*;Date de fin planifiée*;Date de début actuelle;Date de fin actuelle;Quoi (Descriptif de l'action) *;Comment;Où;Alerte Email*;Jours en Avance (Alerte Email) *;Observations</value>
+  </data>
+  <data name="ImpHdrValoresMetas" xml:space="preserve">
+    <value>Code Objectif *;Date de Référence *;Valeur Planifiée *;Valeur actuelle *</value>
+  </data>
+  <data name="ImpMatriculaExist" xml:space="preserve">
+    <value>L'employé, connexion {0}, a déjà été signalé sur la ligne {1} de ce fichier d'importation de fichier.</value>
+  </data>
+  <data name="ImpMetaCodExist" xml:space="preserve">
+    <value>Le code objectif {0} a déjà été renseigné sur la ligne {1}</value>
+  </data>
+  <data name="ImpObs" xml:space="preserve">
+    <value>Observation</value>
+  </data>
+  <data name="ImpObsAreas" xml:space="preserve">
+    <value>Requis;Requis;Requis;option</value>
+  </data>
+  <data name="ImpObsColaboradores" xml:space="preserve">
+    <value>Requis;Requis;option;Requis;Requis&lt;br/&gt;0 - Non / 1 - Oui;Requis&lt;br/&gt;0 - Non / 1 - Oui;Requis&lt;br/&gt;0 - Non / 1 - Oui</value>
+  </data>
+  <data name="ImpObsEntidade" xml:space="preserve">
+    <value>Centre de coûts - requis, requis, Pas obligatoire, requis, Pas obligatoire, obligatoire &lt;br/&gt; 1 - Organisation / 2; nécessaire</value>
+  </data>
+  <data name="ImpObsForecasts" xml:space="preserve">
+    <value>Requis;Requis&lt;br/&gt;1- Téléchargez prévision 1 / 2 – Téléchargez prévision 2;Requis&lt;br/&gt;Mensuel (MM/YYYY) / Trimestriel (NN/YYYY) / Tous les 15 jours (YYYY/MM/NN) / Hebdomadaire (YYYY/MM/NN) / quadrimestriel (NN/YYYY) / semestriel (NN/YYYY) / annuel (YYYY) / journalier (YYYY/MM/DD);Requis</value>
+  </data>
+  <data name="ImpObsGrupoConta" xml:space="preserve">
+    <value>Obligatoire; obligatoire, requis, Pas obligatoire, obligatoire, obligatoire &lt;br/&gt; 1 - / Groupe 2 - Compte</value>
+  </data>
+  <data name="ImpObsIndicadores" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis&lt;br/&gt;1 - Mensuel / 2 - Trimestriel / 5 - quadrimestriel / 6 - semestriel / 7 - annuel;Requis&lt;br/&gt;1 - Haut / 2 - Bas;option&lt;br/&gt;Texte libre;Requis&lt;br/&gt;0 - Inactif / 1 - Actif</value>
+  </data>
+  <data name="ImpObsMatrizEstoque" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis&lt;br/&gt;Mensuel (MM/YYYY);Requis;Requis (Manual CI Type);option;option;option;Requis (Calculé VI1 type);Requis (Calculé VI1 type);option;option;option;Requis (Calculé VI2 type);Requis (Calculé VI2 type);option;option;option</value>
+  </data>
+  <data name="ImpObsMatrizGasto" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis&lt;br/&gt;Mensuel (MM/YYYY);Requis;Requis (Manual CI type);option;option;option;Requis (Calculé CI type);Requis (Calculé CI type);Opional;option;option;Requis (Calculé CI type);Requis (Calculé CI type);option;option;option;Requis (Calculé CI type);Requis (Calculé CI type);option;option;option</value>
+  </data>
+  <data name="ImpObsMatrizProducao" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis&lt;br/&gt;Mensuel (MM/YYYY);Requis;Requis (manual CI type);option;option;option</value>
+  </data>
+  <data name="ImpObsMetasCompartilhadas" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;Requis</value>
+  </data>
+  <data name="ImpObsMetasCompostas" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;Requis;option;Requis;Requis;Requis;option;Requis;Requis&lt;br/&gt;1 - Total / 2 – Moyenne / 3 –Simple;Requis&lt;br/&gt;0 - Non / 1 - Oui;option;option</value>
+  </data>
+  <data name="ImpObsMetasConsolidadoras" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;Requis;option;Requis;Requis;Requis;option;Requis;Requis&lt;br/&gt;1 - Total / 2 – Moyenne / 3 –Simple;Requis&lt;br/&gt;0 - Non / 1 - Oui;option;option</value>
+  </data>
+  <data name="ImpObsMetasIndividuais" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;Requis;option;Requis;Requis;Requis;Requis (if memory calculation does Nont exists);Requis;Requis&lt;br/&gt;1 - Total / 2 – Moyenne / 3 –Simple;Requis&lt;br/&gt;1 - Formule / 2 – Définition Utilisateurs;Requis&lt;br/&gt;0 - Non / 1 - Oui;option;option</value>
+  </data>
+  <data name="ImpObsMetasProjeto" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;Requis;option;Requis;Requis;Requis;Requis;Requiso&lt;br/&gt;0 - Non / 1 - Oui;option;option</value>
+  </data>
+  <data name="ImpObsMetasSimilares" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis;option;Requis;Requis&lt;br/&gt;0 - Non / 1 - Oui</value>
+  </data>
+  <data name="ImpObsPlanosAcao" xml:space="preserve">
+    <value>Requis;Requis;Requis;Requis;Requis&lt;br/&gt;1 - Original / 2 - Contre-mesure / 3 - Supplémentaire;Requis;Requis;option;option;Requis;option;option;Requis&lt;br/&gt;0 - Non / 1 - Oui;Requis&lt;br/&gt;0 – Always Send / N – Nombre de jours ;option</value>
+  </data>
+  <data name="ImpObsValoresMetas" xml:space="preserve">
+    <value>Requis;Requis&lt;br/&gt;Mensuel (MM/YYYY) / Trimestriel (NN/YYYY) / Fortnightly (YYYY/MM/NN) / Hebdomadaire (YYYY/MM/NN) / quadrimestriel (NN/YYYY) / semestriel (NN/YYYY) / annuel (YYYY) / journalier (YYYY/MM/DD);Requis;option</value>
+  </data>
+  <data name="Importacao" xml:space="preserve">
+    <value>Téléchargez</value>
+  </data>
+  <data name="Importar" xml:space="preserve">
+    <value>Téléchargez</value>
+  </data>
+  <data name="ImportarEstruturaHierarquica" xml:space="preserve">
+    <value>Téléchargez la structure hiérarchique </value>
+  </data>
+  <data name="Indicador" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Indicadores" xml:space="preserve">
+    <value>Indicateur (KPI)</value>
+  </data>
+  <data name="IndicadorRelacionado" xml:space="preserve">
+    <value>Indicateur de référence</value>
+  </data>
+  <data name="InfCampoIngles" xml:space="preserve">
+    <value>Anglais obligatoire sur ce champ</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Commencer</value>
+  </data>
+  <data name="InicioPartirDe" xml:space="preserve">
+    <value>Démarrer (De)</value>
+  </data>
+  <data name="InserirCausa" xml:space="preserve">
+    <value>Insérez les causes</value>
+  </data>
+  <data name="InsertSuccess" xml:space="preserve">
+    <value>Données de base insérées avec succès</value>
+  </data>
+  <data name="InvalidCriadorAcaoImp" xml:space="preserve">
+    <value>Créateur de l'utilisateur de l'action doit être le même que l'utilisateur responsable de l'objectif.</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Format de date non valide '{0}'.</value>
+  </data>
+  <data name="InvalidDateUpdRespAcao" xml:space="preserve">
+    <value>Dates de début et de fin effectivess ne peuvent être renseignées par le Responsable Actions</value>
+  </data>
+  <data name="InvalidEmailConference" xml:space="preserve">
+    <value>L'adresse email que vous avez entrée ne correspond pas à l'e-mail enregistré dans la base de données.</value>
+  </data>
+  <data name="InvalidEnviarVotos" xml:space="preserve">
+    <value>Au moins un sondage doit être sélectionné pour l'envoi vers le plan d'action.</value>
+  </data>
+  <data name="InvalidFormat" xml:space="preserve">
+    <value>{0}: format non valable.</value>
+  </data>
+  <data name="InvalidGrandezaUOM" xml:space="preserve">
+    <value>Les unités de mesure doivent appartenir au même ordre de grandeur</value>
+  </data>
+  <data name="InvalidGrupoContaTree" xml:space="preserve">
+    <value>Un compte de groupe peut avoir jusqu'à 5 niveaux de ventilation</value>
+  </data>
+  <data name="InvalidGrupoIndicadorSup" xml:space="preserve">
+    <value>Ce groupe ne peut être attribuée que groupe supérieur de lui-même.</value>
+  </data>
+  <data name="InvalidIndicadorRelacionado" xml:space="preserve">
+    <value>Cet indicateur de référence est déjà lié à un autre processus.</value>
+  </data>
+  <data name="InvalidIniVotacao" xml:space="preserve">
+    <value>Au moins une cause doit être renseignée</value>
+  </data>
+  <data name="InvalidMaxLength" xml:space="preserve">
+    <value>{0} doit avoir une taille maximale de {1} caractère.</value>
+  </data>
+  <data name="InvalidNullUOM" xml:space="preserve">
+    <value>Unité de mesure introuvable.</value>
+  </data>
+  <data name="InvalidPeriodoVigente" xml:space="preserve">
+    <value>Il n'y a pas de gestion de cycle défini. Merci de contacter votre administrateur.</value>
+  </data>
+  <data name="InvalidPermission" xml:space="preserve">
+    <value>L'autorisation n'est pas accordée pour {0}.</value>
+  </data>
+  <data name="InvalidPrecisaoDecimal" xml:space="preserve">
+    <value>{0} doit être comprise entre 0 et 6.</value>
+  </data>
+  <data name="InvalidPsw" xml:space="preserve">
+    <value>Mot de passe incorrect</value>
+  </data>
+  <data name="InvalidQteCampos" xml:space="preserve">
+    <value>Le nombre de champs est incompatible avec la mise en page du fichier importé</value>
+  </data>
+  <data name="InvalidReferencia" xml:space="preserve">
+    <value>La référence de l'unité de mesure de référence ne peut pas être désactivé.</value>
+  </data>
+  <data name="InvalidRespArea" xml:space="preserve">
+    <value>Cette secteur a déjà un responsable.</value>
+  </data>
+  <data name="InvalidRespMeta" xml:space="preserve">
+    <value>Responsable de l'objectif ne doit pas appartenir au même secteur de l'objectif</value>
+  </data>
+  <data name="InvalidSelArea" xml:space="preserve">
+    <value>Sélectionnez une zone.</value>
+  </data>
+  <data name="InvalidSelDtRef" xml:space="preserve">
+    <value>Sélectionnez une date de référence.</value>
+  </data>
+  <data name="InvalidUser" xml:space="preserve">
+    <value>Utilisateur non inscrit</value>
+  </data>
+  <data name="InvalidUserAcao" xml:space="preserve">
+    <value>L' action ne peut pas être modifié par le responsable ou son créateur.</value>
+  </data>
+  <data name="Investimento" xml:space="preserve">
+    <value>Investissement</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="Itens" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="IV" xml:space="preserve">
+    <value>Articles de vérification</value>
+  </data>
+  <data name="IX_AREA_PERIODO_RESP" xml:space="preserve">
+    <value>L'employé est déjà responsable d'autres secteurs</value>
+  </data>
+  <data name="IX_COD_EXISTS" xml:space="preserve">
+    <value>Code existe déjà.</value>
+  </data>
+  <data name="IX_COD_IMP_META" xml:space="preserve">
+    <value>Code Objectif {0}, line {1} is duplicated in the upload file.</value>
+  </data>
+  <data name="IX_MATRICULA" xml:space="preserve">
+    <value>Numéro d'enregistrement salarié existe déjà.</value>
+  </data>
+  <data name="Justificativa" xml:space="preserve">
+    <value>Justification</value>
+  </data>
+  <data name="JustificativaCancelamento" xml:space="preserve">
+    <value>Annulation de la justification</value>
+  </data>
+  <data name="JustificativaNegacao" xml:space="preserve">
+    <value>Raison du refus</value>
+  </data>
+  <data name="KeyUser" xml:space="preserve">
+    <value>Utilisateur clé</value>
+  </data>
+  <data name="KpiCompare" xml:space="preserve">
+    <value>Indicateur de comparaison</value>
+  </data>
+  <data name="KPITecnico" xml:space="preserve">
+    <value> KPI Technique</value>
+  </data>
+  <data name="Laranja" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Présentation</value>
+  </data>
+  <data name="Legenda" xml:space="preserve">
+    <value>Légende</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Ligne</value>
+  </data>
+  <data name="ListaIndicadores" xml:space="preserve">
+    <value>Liste des indicateurs</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Patientez SVP, traitement en cours</value>
+  </data>
+  <data name="LocalOcorrencia" xml:space="preserve">
+    <value>Lieu</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Connecter</value>
+  </data>
+  <data name="LogFollow" xml:space="preserve">
+    <value>Afficher / Mettre à jour le suivi</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="LoginGo" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LogInSuccess" xml:space="preserve">
+    <value>Vous êtes connecté avec succès</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="MailBodyForgotPsw" xml:space="preserve">
+    <value>Cher {0}, &lt;br/&gt; Votre mot de passe a été réinitialisé dans le système &lt;b&gt; Mereo - GR &lt;/ b&gt;. &lt;br/&gt; Votre nouveau mot de passe est &lt;b&gt; {1} &lt;/ b&gt;. &lt;br/&gt; Vous pouvez vous connecter au système et changer votre mot de passe.</value>
+  </data>
+  <data name="MailSubjectAcao" xml:space="preserve">
+    <value>Nouvelle action vous est attribuée</value>
+  </data>
+  <data name="MailSubjectForgotPsw" xml:space="preserve">
+    <value>Mereo GR - Changer mot de passe</value>
+  </data>
+  <data name="Maior" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="MaiorIgual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="MapAcompAcaoesCorr" xml:space="preserve">
+    <value>Suivi des actions&gt; Actions en cours</value>
+  </data>
+  <data name="MapAcompAcoesPendentes" xml:space="preserve">
+    <value>Suivi des résultats &gt; Tableau de bord des actions &gt; en attente d'approbation</value>
+  </data>
+  <data name="MapAcompanhamentoAcoes" xml:space="preserve">
+    <value>Suivi des résultats &gt; Tableau de bord des actions</value>
+  </data>
+  <data name="MapAcompanhamentoMatricial" xml:space="preserve">
+    <value>Analyse des résultats&gt; Suivi matrice</value>
+  </data>
+  <data name="MapAnaliseCausas" xml:space="preserve">
+    <value>Suivi des résultats &gt; Analyse des causes</value>
+  </data>
+  <data name="MapAnaliseGrafica" xml:space="preserve">
+    <value>Analyse des résultats&gt; Suivi&gt; Effets&gt; Analyse graphique</value>
+  </data>
+  <data name="MapArea" xml:space="preserve">
+    <value>Données de Base&gt; secteurs</value>
+  </data>
+  <data name="MapArvoreConta" xml:space="preserve">
+    <value>Données de base&gt; Arbre des comptes</value>
+  </data>
+  <data name="MapArvoreEntidade" xml:space="preserve">
+    <value>Données de base&gt; Arbre des entités</value>
+  </data>
+  <data name="MapColaborador" xml:space="preserve">
+    <value>Données de Base&gt; Employé</value>
+  </data>
+  <data name="MapColaboradorPerfil" xml:space="preserve">
+    <value>Données de base&gt; Salarié &gt;Profil Utilisateur</value>
+  </data>
+  <data name="MapCompIndicadores" xml:space="preserve">
+    <value>Analyse des résultats&gt; Comparaison des indicateurs</value>
+  </data>
+  <data name="MapContramedida" xml:space="preserve">
+    <value>Suivi des résultats&gt; Contre-mesures</value>
+  </data>
+  <data name="MapCotacaoMoeda" xml:space="preserve">
+    <value>Données de Base &gt; Devise</value>
+  </data>
+  <data name="MapDashboard" xml:space="preserve">
+    <value>Suivi des résultats&gt; Tableau de bord</value>
+  </data>
+  <data name="MapDefault" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="MapDiretriz" xml:space="preserve">
+    <value>Données de Base&gt; Lignes directrices</value>
+  </data>
+  <data name="MapEstatisticaAcao" xml:space="preserve">
+    <value>Statistiques et Rapports&gt; Actions Statistiques</value>
+  </data>
+  <data name="MapFaixaFarol" xml:space="preserve">
+    <value>Paramètres&gt; Rang des voyants</value>
+  </data>
+  <data name="MapFarol" xml:space="preserve">
+    <value>Paramètres&gt; voyants</value>
+  </data>
+  <data name="MapFilial" xml:space="preserve">
+    <value>Paramètres&gt; Branches</value>
+  </data>
+  <data name="MapGlossarioMetas" xml:space="preserve">
+    <value>Planification&gt; Glossaire Objectifs</value>
+  </data>
+  <data name="MapGrandeza" xml:space="preserve">
+    <value>Données de Base&gt; Quantité</value>
+  </data>
+  <data name="MapGrupoIndicador" xml:space="preserve">
+    <value>Données de Base&gt; Groupe d'indicateurs</value>
+  </data>
+  <data name="MapGrupoUsuario" xml:space="preserve">
+    <value>Paramètres &gt; Groupes utilisateur (profil d'accès)</value>
+  </data>
+  <data name="MapIdioma" xml:space="preserve">
+    <value>Paramètres&gt; Langue</value>
+  </data>
+  <data name="MapImports" xml:space="preserve">
+    <value>Chargement de données&gt; Télécharger</value>
+  </data>
+  <data name="MapIndicador" xml:space="preserve">
+    <value>Données de Base&gt; Indicateurs (KPI)</value>
+  </data>
+  <data name="MapLogin" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="MapMatrizProcesso" xml:space="preserve">
+    <value>Données de base&gt; Matrice</value>
+  </data>
+  <data name="MapMeta" xml:space="preserve">
+    <value>Planification&gt; Objectifs</value>
+  </data>
+  <data name="MapMoeda" xml:space="preserve">
+    <value>Paramètres&gt; Monnaie</value>
+  </data>
+  <data name="MapPeriodoGestao" xml:space="preserve">
+    <value>Paramètres&gt; Gestion des cycles</value>
+  </data>
+  <data name="MapProcesso" xml:space="preserve">
+    <value>Données de Base&gt; Processus</value>
+  </data>
+  <data name="MapSolicitacoeEmAnalise" xml:space="preserve">
+    <value>Suivi des résultats &gt; Tableau de bord des actions &gt; demandes en attente d'approbation</value>
+  </data>
+  <data name="MapUnidadeComp" xml:space="preserve">
+    <value>Données de Base &gt; unités de mesure combiné</value>
+  </data>
+  <data name="MapUnidadeComposta" xml:space="preserve">
+    <value>Données de Base &gt; unités de mesure combiné</value>
+  </data>
+  <data name="MapUnidadeMedida" xml:space="preserve">
+    <value>Données de Base&gt; Unité de mesure</value>
+  </data>
+  <data name="MapUnidadeSimples" xml:space="preserve">
+    <value>Données de Base&gt; Unité de mesure simple</value>
+  </data>
+  <data name="MapVisaoHistoricaContas" xml:space="preserve">
+    <value>Analyse des résultats&gt; Suivi Matrice&gt; Aperçu Historique - Comptes</value>
+  </data>
+  <data name="MapVisaoHistoricaEntidades" xml:space="preserve">
+    <value>Analyse des résultats&gt; Suivi Matrice&gt; Aperçu Historique - Entités</value>
+  </data>
+  <data name="MapVisaoMatricial" xml:space="preserve">
+    <value>Analyse des résultats&gt; Suivi Matrice&gt; Aperçu Matrice</value>
+  </data>
+  <data name="Marcador" xml:space="preserve">
+    <value>Balise</value>
+  </data>
+  <data name="Matricula" xml:space="preserve">
+    <value>Numéro d'enregistrement de l'employé</value>
+  </data>
+  <data name="Matriz" xml:space="preserve">
+    <value>Matrice</value>
+  </data>
+  <data name="MatrizEstoque" xml:space="preserve">
+    <value>Matrice des stocks</value>
+  </data>
+  <data name="MatrizGasto" xml:space="preserve">
+    <value>Matrice des coûts</value>
+  </data>
+  <data name="MatrizNotFound" xml:space="preserve">
+    <value>Il n'y a aucune matrice établie à ce processus</value>
+  </data>
+  <data name="MatrizProcesso" xml:space="preserve">
+    <value>Matrice processus</value>
+  </data>
+  <data name="MatrizProducao" xml:space="preserve">
+    <value>Matrice de  production</value>
+  </data>
+  <data name="MatrizReceita" xml:space="preserve">
+    <value>Matrice du revenu</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Moyenne</value>
+  </data>
+  <data name="MelhorValor" xml:space="preserve">
+    <value>La meilleure valeur</value>
+  </data>
+  <data name="MemoriaCalculo" xml:space="preserve">
+    <value>Calcul de la mémoire</value>
+  </data>
+  <data name="Menor" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="MenorIgual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="Mensal" xml:space="preserve">
+    <value>Mensuel</value>
+  </data>
+  <data name="Mes" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="Meses" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="Meta" xml:space="preserve">
+    <value>Objectif</value>
+  </data>
+  <data name="MetaMalDimensionada" xml:space="preserve">
+    <value>Objectif non conforme</value>
+  </data>
+  <data name="MetaOrigem" xml:space="preserve">
+    <value>Source de l'objectif:</value>
+  </data>
+  <data name="Metas" xml:space="preserve">
+    <value>Objectifs</value>
+  </data>
+  <data name="MetasCompartilhadas" xml:space="preserve">
+    <value>Objectifs partagés</value>
+  </data>
+  <data name="MetasCompostas" xml:space="preserve">
+    <value>Objectifs composés</value>
+  </data>
+  <data name="MetasConsolidadoras" xml:space="preserve">
+    <value>Objectifs Consolidés</value>
+  </data>
+  <data name="MetasIndividuais" xml:space="preserve">
+    <value>Objectifs individuels</value>
+  </data>
+  <data name="MetasProjeto" xml:space="preserve">
+    <value>Objectifs du projet</value>
+  </data>
+  <data name="MetasSimilares" xml:space="preserve">
+    <value>Objectifs similaires</value>
+  </data>
+  <data name="MetaSuperior" xml:space="preserve">
+    <value>Objectif supérieur</value>
+  </data>
+  <data name="MN00" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="MN00_01" xml:space="preserve">
+    <value>Thèmes</value>
+  </data>
+  <data name="MN00_02" xml:space="preserve">
+    <value>Changer mot de passe</value>
+  </data>
+  <data name="MN01" xml:space="preserve">
+    <value>Données de Base</value>
+  </data>
+  <data name="MN01_01" xml:space="preserve">
+    <value>Configuration initiale</value>
+  </data>
+  <data name="MN01_01_01" xml:space="preserve">
+    <value>Cycles de gestion</value>
+  </data>
+  <data name="MN01_01_02" xml:space="preserve">
+    <value>Langues</value>
+  </data>
+  <data name="MN01_01_03" xml:space="preserve">
+    <value>Unités de base  SI</value>
+  </data>
+  <data name="MN01_01_04" xml:space="preserve">
+    <value>Unités de mesure</value>
+  </data>
+  <data name="MN01_01_05" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="MN01_01_06" xml:space="preserve">
+    <value>Voyant</value>
+  </data>
+  <data name="MN01_01_07" xml:space="preserve">
+    <value>Rang des voyants</value>
+  </data>
+  <data name="MN01_02" xml:space="preserve">
+    <value>Quotes des devises</value>
+  </data>
+  <data name="MN01_03" xml:space="preserve">
+    <value>Ligne directrice</value>
+  </data>
+  <data name="MN01_04" xml:space="preserve">
+    <value>Indicateurs</value>
+  </data>
+  <data name="MN01_05" xml:space="preserve">
+    <value>Processus</value>
+  </data>
+  <data name="MN01_06" xml:space="preserve">
+    <value>Secteurs</value>
+  </data>
+  <data name="MN01_07" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="MN01_08" xml:space="preserve">
+    <value>Groupes X Comptes</value>
+  </data>
+  <data name="MN01_09" xml:space="preserve">
+    <value>Entités</value>
+  </data>
+  <data name="MN01_10" xml:space="preserve">
+    <value>Matrice processus</value>
+  </data>
+  <data name="MN01_11" xml:space="preserve">
+    <value>Groupes d'indicateurs</value>
+  </data>
+  <data name="MN01_12" xml:space="preserve">
+    <value>Groupe d'utilisateurs</value>
+  </data>
+  <data name="MN01_13" xml:space="preserve">
+    <value>Chargement des données</value>
+  </data>
+  <data name="MN02" xml:space="preserve">
+    <value>Planification</value>
+  </data>
+  <data name="MN02_01" xml:space="preserve">
+    <value>Objectifs</value>
+  </data>
+  <data name="MN02_02" xml:space="preserve">
+    <value>Prévision</value>
+  </data>
+  <data name="MN02_03" xml:space="preserve">
+    <value>Plans d'action</value>
+  </data>
+  <data name="MN02_04" xml:space="preserve">
+    <value>Glossaire des objectifs</value>
+  </data>
+  <data name="MN03" xml:space="preserve">
+    <value>Suivi des résultats &lt;br/&gt; </value>
+  </data>
+  <data name="MN03_01" xml:space="preserve">
+    <value>Tableau de bord des objectifs/objectifs</value>
+  </data>
+  <data name="MN03_02" xml:space="preserve">
+    <value>Tableau de bord des actions</value>
+  </data>
+  <data name="MN04" xml:space="preserve">
+    <value>Réunion &lt;br/&gt; rapide</value>
+  </data>
+  <data name="MN04_01" xml:space="preserve">
+    <value>Liste des tâches</value>
+  </data>
+  <data name="MN05" xml:space="preserve">
+    <value>Analyse des résultats &lt;br/&gt; </value>
+  </data>
+  <data name="MN05_01" xml:space="preserve">
+    <value>Suivi Matrice</value>
+  </data>
+  <data name="MN05_05" xml:space="preserve">
+    <value>Comparaison des indicateurs</value>
+  </data>
+  <data name="MN05_06" xml:space="preserve">
+    <value>Aperçu du processus</value>
+  </data>
+  <data name="MN06" xml:space="preserve">
+    <value>Analyse financière &lt;br/&gt;</value>
+  </data>
+  <data name="MN06_01" xml:space="preserve">
+    <value>Cockpit financier</value>
+  </data>
+  <data name="MN06_02" xml:space="preserve">
+    <value>Arbre de déploiement</value>
+  </data>
+  <data name="MN06_03" xml:space="preserve">
+    <value>Simulateurs</value>
+  </data>
+  <data name="MN07" xml:space="preserve">
+    <value>Rapports des statistiques &lt;br/&gt;</value>
+  </data>
+  <data name="MN07_01" xml:space="preserve">
+    <value>Statistiques des actions</value>
+  </data>
+  <data name="MN07_02" xml:space="preserve">
+    <value>Statistiques des objectifs</value>
+  </data>
+  <data name="MN08" xml:space="preserve">
+    <value>Rémunération &lt;br/&gt; variable</value>
+  </data>
+  <data name="MN08_01" xml:space="preserve">
+    <value>Rémunération variable</value>
+  </data>
+  <data name="Moeda" xml:space="preserve">
+    <value>Devise</value>
+  </data>
+  <data name="MoedaConversao" xml:space="preserve">
+    <value>Conversion des devises</value>
+  </data>
+  <data name="MoedaDestino" xml:space="preserve">
+    <value>Devise finale</value>
+  </data>
+  <data name="MoedaOrigem" xml:space="preserve">
+    <value>Source devise</value>
+  </data>
+  <data name="MontarAtalizarMat" xml:space="preserve">
+    <value>Créer / Mettre à jour la matrice</value>
+  </data>
+  <data name="Month01" xml:space="preserve">
+    <value>Janvier</value>
+  </data>
+  <data name="Month02" xml:space="preserve">
+    <value>Février</value>
+  </data>
+  <data name="Month03" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Month04" xml:space="preserve">
+    <value>Avril</value>
+  </data>
+  <data name="Month05" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="Month06" xml:space="preserve">
+    <value>Juin</value>
+  </data>
+  <data name="Month07" xml:space="preserve">
+    <value>Juillet</value>
+  </data>
+  <data name="Month08" xml:space="preserve">
+    <value>Août</value>
+  </data>
+  <data name="Month09" xml:space="preserve">
+    <value>Septembre</value>
+  </data>
+  <data name="Month10" xml:space="preserve">
+    <value>Octobre</value>
+  </data>
+  <data name="Month11" xml:space="preserve">
+    <value>Novembre</value>
+  </data>
+  <data name="Month12" xml:space="preserve">
+    <value>Décembre</value>
+  </data>
+  <data name="Multiplicacao" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>N/ A</value>
+  </data>
+  <data name="NaoAlcancada" xml:space="preserve">
+    <value>Non atteint</value>
+  </data>
+  <data name="NaoExecutada" xml:space="preserve">
+    <value>Non exécuté</value>
+  </data>
+  <data name="NaoTratada" xml:space="preserve">
+    <value>Non traités</value>
+  </data>
+  <data name="Negar" xml:space="preserve">
+    <value>Nier</value>
+  </data>
+  <data name="NegarAcao" xml:space="preserve">
+    <value>Refuser Action</value>
+  </data>
+  <data name="NegarCancel" xml:space="preserve">
+    <value>Annulation refusée</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Nome" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>N/ a</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="NoSelectDelete" xml:space="preserve">
+    <value>Sélectionnez au moins une entrée à supprimer.</value>
+  </data>
+  <data name="NoSelectedItem" xml:space="preserve">
+    <value>Aucun article sélectionné.</value>
+  </data>
+  <data name="NotExists" xml:space="preserve">
+    <value>{0} n'existe pas.</value>
+  </data>
+  <data name="Notify" xml:space="preserve">
+    <value>Notification et Alerte</value>
+  </data>
+  <data name="NotifyAcoesPendentes" xml:space="preserve">
+    <value>Vous avez {0} actions en attente</value>
+  </data>
+  <data name="NotifyNoAcoesPendentes" xml:space="preserve">
+    <value>Vous n'avez pas d'action en cours</value>
+  </data>
+  <data name="NullField" xml:space="preserve">
+    <value>{0} doit être renseigné.</value>
+  </data>
+  <data name="NumAcoes" xml:space="preserve">
+    <value>Nombre d'actions</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Nombre / Numéro</value>
+  </data>
+  <data name="NumeroForecast" xml:space="preserve">
+    <value>Nombre de prévisions</value>
+  </data>
+  <data name="NumParticipantesVot" xml:space="preserve">
+    <value>Nombre de participants au sondage</value>
+  </data>
+  <data name="Objetivo" xml:space="preserve">
+    <value>Objectif</value>
+  </data>
+  <data name="Obs" xml:space="preserve">
+    <value>Observation</value>
+  </data>
+  <data name="Onde" xml:space="preserve">
+    <value>Où</value>
+  </data>
+  <data name="Opcoes" xml:space="preserve">
+    <value>Options </value>
+  </data>
+  <data name="Operador" xml:space="preserve">
+    <value>Opérateur</value>
+  </data>
+  <data name="OperadorMax" xml:space="preserve">
+    <value>Opérateur maximum</value>
+  </data>
+  <data name="OperadorMim" xml:space="preserve">
+    <value>Opérateur minimum</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options </value>
+  </data>
+  <data name="OQue" xml:space="preserve">
+    <value>Quoi</value>
+  </data>
+  <data name="OQueFoiFeito" xml:space="preserve">
+    <value>Ce qui a été fait</value>
+  </data>
+  <data name="Origem" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="OrigemAcao" xml:space="preserve">
+    <value>Source d'action</value>
+  </data>
+  <data name="OutrasAreas" xml:space="preserve">
+    <value>Autres secteurs</value>
+  </data>
+  <data name="Outros" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="PagerAfterText" xml:space="preserve">
+    <value>De {0}</value>
+  </data>
+  <data name="PagerBeforeText" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="PagerDisplayMsg" xml:space="preserve">
+    <value>Affichage {0} - {1} {2} enregistrements (s)</value>
+  </data>
+  <data name="PagerEmptyMsg" xml:space="preserve">
+    <value>Aucune entrée à afficher ...</value>
+  </data>
+  <data name="PagerFirst" xml:space="preserve">
+    <value>Première page</value>
+  </data>
+  <data name="PagerGoTo" xml:space="preserve">
+    <value>Aller à la page</value>
+  </data>
+  <data name="PagerLast" xml:space="preserve">
+    <value>Dernière page</value>
+  </data>
+  <data name="PagerNext" xml:space="preserve">
+    <value>Page suivante</value>
+  </data>
+  <data name="PagerPrev" xml:space="preserve">
+    <value>Page précédente</value>
+  </data>
+  <data name="PagerRefresh" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="PagerSizeText" xml:space="preserve">
+    <value>Modifier la page</value>
+  </data>
+  <data name="Pagina" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Participante" xml:space="preserve">
+    <value>Participant</value>
+  </data>
+  <data name="Participantes" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="PendAprov" xml:space="preserve">
+    <value>En attente d'approbation</value>
+  </data>
+  <data name="Perc" xml:space="preserve">
+    <value>Pourcentage</value>
+  </data>
+  <data name="PercAcoes" xml:space="preserve">
+    <value>Pourcentage des actions</value>
+  </data>
+  <data name="PercAcoesAtrasadas" xml:space="preserve">
+    <value>% Actions en retard</value>
+  </data>
+  <data name="PercDesvioAcum" xml:space="preserve">
+    <value>% Ecart cumulé</value>
+  </data>
+  <data name="PercRealizado" xml:space="preserve">
+    <value>Pourcentage de détention</value>
+  </data>
+  <data name="PerfilArea" xml:space="preserve">
+    <value>Profil secteurs</value>
+  </data>
+  <data name="PerfilEntdade" xml:space="preserve">
+    <value>Profil entités</value>
+  </data>
+  <data name="PerfilGrupoConta" xml:space="preserve">
+    <value>Profil Comptes &amp; groupe</value>
+  </data>
+  <data name="PerfilUsuario" xml:space="preserve">
+    <value>Profil utilisateur</value>
+  </data>
+  <data name="PerfisAcesso" xml:space="preserve">
+    <value>Profil d'accés</value>
+  </data>
+  <data name="Periodo" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="PeriodoAnt" xml:space="preserve">
+    <value>Gestion du cycle précédent</value>
+  </data>
+  <data name="PeriodoDuplicado" xml:space="preserve">
+    <value>La période ne peut pas contenir de dates à intervalles existant dans d'autres périodes.</value>
+  </data>
+  <data name="PeriodoGestao" xml:space="preserve">
+    <value>Cycles de gestion</value>
+  </data>
+  <data name="PeriodoMin" xml:space="preserve">
+    <value>La durée minimum de gestion du cycle est de 3 mois.</value>
+  </data>
+  <data name="PeriodoVigente" xml:space="preserve">
+    <value>Gestion du cycle actuel</value>
+  </data>
+  <data name="PeriodoVisualizacao" xml:space="preserve">
+    <value>Période de visualisation</value>
+  </data>
+  <data name="Peso" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+  <data name="PesoMeta" xml:space="preserve">
+    <value>Poids objectif</value>
+  </data>
+  <data name="PesqSolAntInd" xml:space="preserve">
+    <value>Rechercher Indicateur dernières solutions</value>
+  </data>
+  <data name="Planejada" xml:space="preserve">
+    <value>Planifié</value>
+  </data>
+  <data name="Planejado" xml:space="preserve">
+    <value>Planifié</value>
+  </data>
+  <data name="PlanosAcao" xml:space="preserve">
+    <value>Plan d'action</value>
+  </data>
+  <data name="Polaridade" xml:space="preserve">
+    <value>Polarité</value>
+  </data>
+  <data name="Pontual" xml:space="preserve">
+    <value>Ponctuel</value>
+  </data>
+  <data name="Porque" xml:space="preserve">
+    <value>Pourquoi</value>
+  </data>
+  <data name="Prazo" xml:space="preserve">
+    <value>Date limite</value>
+  </data>
+  <data name="PrazoTermino" xml:space="preserve">
+    <value>Date limite</value>
+  </data>
+  <data name="PrecisaoDecimal" xml:space="preserve">
+    <value>Précision décimale</value>
+  </data>
+  <data name="PrecoItem" xml:space="preserve">
+    <value>Prix ​​de l'article</value>
+  </data>
+  <data name="PrecoProduto" xml:space="preserve">
+    <value>Prix ​​du produit</value>
+  </data>
+  <data name="PrecoUnitario" xml:space="preserve">
+    <value>Prix ​​unitaire</value>
+  </data>
+  <data name="Previsto" xml:space="preserve">
+    <value>Planifié</value>
+  </data>
+  <data name="Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="PrintChart" xml:space="preserve">
+    <value>Imprimer graphique</value>
+  </data>
+  <data name="PriorizacaoCausa" xml:space="preserve">
+    <value>Priorité des causes</value>
+  </data>
+  <data name="Problema" xml:space="preserve">
+    <value>Problème</value>
+  </data>
+  <data name="ProcEdit" xml:space="preserve">
+    <value>Edition du processus</value>
+  </data>
+  <data name="Processando" xml:space="preserve">
+    <value>Traitement {0} de {1}.</value>
+  </data>
+  <data name="Processo" xml:space="preserve">
+    <value>Processus</value>
+  </data>
+  <data name="Processos" xml:space="preserve">
+    <value>Processus</value>
+  </data>
+  <data name="ProcMatriz" xml:space="preserve">
+    <value>Génération  Structure de la matrice</value>
+  </data>
+  <data name="Producao" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="ProximoPasso" xml:space="preserve">
+    <value>Étape suivante</value>
+  </data>
+  <data name="Psw" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PswConfirm" xml:space="preserve">
+    <value>Confirmer mot de passe</value>
+  </data>
+  <data name="PswNew" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="PswRedefinida" xml:space="preserve">
+    <value>Votre nouveau mot de passe a été modifié et envoyé à l'adresse e-mail {0}</value>
+  </data>
+  <data name="PswUpdated" xml:space="preserve">
+    <value>Mot de passe changé avec succès</value>
+  </data>
+  <data name="Qte" xml:space="preserve">
+    <value>Qté.</value>
+  </data>
+  <data name="QteMeses" xml:space="preserve">
+    <value>Nombre de mois</value>
+  </data>
+  <data name="Quadrimestral" xml:space="preserve">
+    <value>Tous les 4 mois</value>
+  </data>
+  <data name="Quadrimestre" xml:space="preserve">
+    <value>Quatre mois</value>
+  </data>
+  <data name="Quando" xml:space="preserve">
+    <value>Quand</value>
+  </data>
+  <data name="Quantidade" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="Quem" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="Quinzena" xml:space="preserve">
+    <value>Quinze jours</value>
+  </data>
+  <data name="Quinzenal" xml:space="preserve">
+    <value>Bihebdomadaire</value>
+  </data>
+  <data name="Realizado" xml:space="preserve">
+    <value>Réel</value>
+  </data>
+  <data name="Receita" xml:space="preserve">
+    <value>Revenu</value>
+  </data>
+  <data name="RedundanciaCiclica" xml:space="preserve">
+    <value>Erreur de redondance cyclique.</value>
+  </data>
+  <data name="RefDesvio" xml:space="preserve">
+    <value>Référence écart</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>Référence</value>
+  </data>
+  <data name="Relativo" xml:space="preserve">
+    <value>Relatif</value>
+  </data>
+  <data name="RelDesv" xml:space="preserve">
+    <value>Rapport des écarts</value>
+  </data>
+  <data name="ResetCustom" xml:space="preserve">
+    <value>Réinitialiser les paramètres</value>
+  </data>
+  <data name="RespAcao" xml:space="preserve">
+    <value>Responsable Actions</value>
+  </data>
+  <data name="RespArea" xml:space="preserve">
+    <value>Responsable  Secteur</value>
+  </data>
+  <data name="RespExcluir" xml:space="preserve">
+    <value>Le salarié {0} ne peut pas être supprimé, il est responsable de secteur.</value>
+  </data>
+  <data name="Responsavel" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="ResponsavelMeta" xml:space="preserve">
+    <value>Responsable Objectif</value>
+  </data>
+  <data name="ResponsavelProcesso" xml:space="preserve">
+    <value>Responsable Processus</value>
+  </data>
+  <data name="Retorno" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="Roxo" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="SelArvoreConta" xml:space="preserve">
+    <value>Sélectionnez Arbre des comptes</value>
+  </data>
+  <data name="SelArvoreEntidade" xml:space="preserve">
+    <value>Sélectionnez un arbre d'entité</value>
+  </data>
+  <data name="SelectArea" xml:space="preserve">
+    <value>Sélectionnez un secteur </value>
+  </data>
+  <data name="SelectEntidade" xml:space="preserve">
+    <value>Sélectionnez Entité ...</value>
+  </data>
+  <data name="SelectGCEnt" xml:space="preserve">
+    <value>Sélectionner le groupe/compte et  Entité</value>
+  </data>
+  <data name="SelectGrupoConta" xml:space="preserve">
+    <value>Sélectionnez groupe ou compte ...</value>
+  </data>
+  <data name="SelectMatriz" xml:space="preserve">
+    <value>Sélectionnez la matrice</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>Sélectionner l'entrée ...</value>
+  </data>
+  <data name="SelectProcesso" xml:space="preserve">
+    <value>Sélectionnez processus</value>
+  </data>
+  <data name="SelectVisao" xml:space="preserve">
+    <value>Sélectionnez Affichage</value>
+  </data>
+  <data name="SelFile" xml:space="preserve">
+    <value>Sélectionnez un fichier ...</value>
+  </data>
+  <data name="SelProcesso" xml:space="preserve">
+    <value>Processus de sélection</value>
+  </data>
+  <data name="Semana" xml:space="preserve">
+    <value>Semaine</value>
+  </data>
+  <data name="Semanal" xml:space="preserve">
+    <value>Hebdomadaire</value>
+  </data>
+  <data name="Semestral" xml:space="preserve">
+    <value>Semi-annuel</value>
+  </data>
+  <data name="Semestre" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="SendFile" xml:space="preserve">
+    <value>Envoyer un fichier</value>
+  </data>
+  <data name="SendingFile" xml:space="preserve">
+    <value>Envoi en cours d'un fichier...</value>
+  </data>
+  <data name="SessionTimedOut" xml:space="preserve">
+    <value>Aucun utilisateur connecté ou session expiré. Merci de vous connecter</value>
+  </data>
+  <data name="ShortMth01" xml:space="preserve">
+    <value>Janvier</value>
+  </data>
+  <data name="ShortMth02" xml:space="preserve">
+    <value>Février</value>
+  </data>
+  <data name="ShortMth03" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="ShortMth04" xml:space="preserve">
+    <value>Avril</value>
+  </data>
+  <data name="ShortMth05" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="ShortMth06" xml:space="preserve">
+    <value>Juin</value>
+  </data>
+  <data name="ShortMth07" xml:space="preserve">
+    <value>Juillet</value>
+  </data>
+  <data name="ShortMth08" xml:space="preserve">
+    <value>Août</value>
+  </data>
+  <data name="ShortMth09" xml:space="preserve">
+    <value>Septembre</value>
+  </data>
+  <data name="ShortMth10" xml:space="preserve">
+    <value>Octobre</value>
+  </data>
+  <data name="ShortMth11" xml:space="preserve">
+    <value>Novembre</value>
+  </data>
+  <data name="ShortMth12" xml:space="preserve">
+    <value>Décembre</value>
+  </data>
+  <data name="SiglaD" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="SiglaF1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="SiglaF2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="SiglaP" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="SiglaR" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="SiglaUnidadeMedida" xml:space="preserve">
+    <value>Unité de Manutention</value>
+  </data>
+  <data name="Simbolo" xml:space="preserve">
+    <value>Symbole</value>
+  </data>
+  <data name="Simbolo1" xml:space="preserve">
+    <value>Symbole 1</value>
+  </data>
+  <data name="Simbolo2" xml:space="preserve">
+    <value>Symbole 2</value>
+  </data>
+  <data name="SingleUser" xml:space="preserve">
+    <value>Utilisateur unique</value>
+  </data>
+  <data name="SituacaoIdeal" xml:space="preserve">
+    <value>Situation idéale</value>
+  </data>
+  <data name="SolCancel" xml:space="preserve">
+    <value>Demande d'annulation</value>
+  </data>
+  <data name="SolicitacaoesAnalise" xml:space="preserve">
+    <value>Demandes à l'étude</value>
+  </data>
+  <data name="SolicitadoPor" xml:space="preserve">
+    <value>Demandé par</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="StatusAcao" xml:space="preserve">
+    <value>Statut  Actions</value>
+  </data>
+  <data name="StatusAprovacao" xml:space="preserve">
+    <value>Statut Approbation</value>
+  </data>
+  <data name="SubCausa" xml:space="preserve">
+    <value>Sous-cause</value>
+  </data>
+  <data name="SubCausa1" xml:space="preserve">
+    <value>Sous-cause 1</value>
+  </data>
+  <data name="SubCausa2" xml:space="preserve">
+    <value>Sous-cause 2</value>
+  </data>
+  <data name="SubCausa3" xml:space="preserve">
+    <value>Sous-cause 3</value>
+  </data>
+  <data name="SubCausa4" xml:space="preserve">
+    <value>Sous-Cause 4</value>
+  </data>
+  <data name="SubCausa5" xml:space="preserve">
+    <value>Sous-Cause 5</value>
+  </data>
+  <data name="Subordinadas" xml:space="preserve">
+    <value>Subordonnées</value>
+  </data>
+  <data name="TabelaAcoes" xml:space="preserve">
+    <value>Tableau des actions</value>
+  </data>
+  <data name="TabelaValores" xml:space="preserve">
+    <value>Tableau des valeurs</value>
+  </data>
+  <data name="tBarBack" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="tBarCancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="tBarClear" xml:space="preserve">
+    <value>Nettoyer</value>
+  </data>
+  <data name="tBarCopiarCausas" xml:space="preserve">
+    <value>Copier les causes et contre-mesures</value>
+  </data>
+  <data name="tBarDelete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tBarEdit" xml:space="preserve">
+    <value>Éditer</value>
+  </data>
+  <data name="tBarExecute" xml:space="preserve">
+    <value>Exécuter</value>
+  </data>
+  <data name="tBarExport" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="tBarFilter" xml:space="preserve">
+    <value>Filtrer</value>
+  </data>
+  <data name="tBarImport" xml:space="preserve">
+    <value>Téléchargez</value>
+  </data>
+  <data name="tBarNew" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="tBarOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="tBarPDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="tBarPrint" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="tBarSave" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tBarSaveItem" xml:space="preserve">
+    <value>Enregistrer l'élément</value>
+  </data>
+  <data name="tBarSearch" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="tBarSelect" xml:space="preserve">
+    <value>Sélectionner</value>
+  </data>
+  <data name="Termino" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="Texto" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="TextoProblema" xml:space="preserve">
+    <value>Écart de {0}% dans {1}</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="TipoAcao" xml:space="preserve">
+    <value>Type d'action</value>
+  </data>
+  <data name="TipoAcesso" xml:space="preserve">
+    <value>Type d'accès</value>
+  </data>
+  <data name="TipoAcumulacao" xml:space="preserve">
+    <value>Type d'accumulation</value>
+  </data>
+  <data name="TipoCalcMatriz" xml:space="preserve">
+    <value>Type de mise à jour des données</value>
+  </data>
+  <data name="TipoCalculoIC" xml:space="preserve">
+    <value>Type de Matrice d'insertion des valeurs</value>
+  </data>
+  <data name="TipoConversao" xml:space="preserve">
+    <value>Type de conversion</value>
+  </data>
+  <data name="TipoDefinicaoValor" xml:space="preserve">
+    <value>Type de Définition des valeurs</value>
+  </data>
+  <data name="TipoInsVal" xml:space="preserve">
+    <value>Type d'insertion des valeurs</value>
+  </data>
+  <data name="TipoMeta" xml:space="preserve">
+    <value>Type d'objectif</value>
+  </data>
+  <data name="TipoUsuario" xml:space="preserve">
+    <value>Type d'utilisateur</value>
+  </data>
+  <data name="TitleSystem" xml:space="preserve">
+    <value>Système de gestion des résultats</value>
+  </data>
+  <data name="ToDown" xml:space="preserve">
+    <value>Meilleur vers le bas</value>
+  </data>
+  <data name="Top10ContDesv" xml:space="preserve">
+    <value>TOP 10 - Contribution à l'écart</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ToUp" xml:space="preserve">
+    <value>Meilleur vers le haut</value>
+  </data>
+  <data name="TratadaComAnalise" xml:space="preserve">
+    <value>Analyse C traités / Cause</value>
+  </data>
+  <data name="TratadaSemAnalise" xml:space="preserve">
+    <value>Traitées sans analyse de la cause</value>
+  </data>
+  <data name="TratarDesvio" xml:space="preserve">
+    <value>Traiter Écart</value>
+  </data>
+  <data name="TratarDesvioQuestion" xml:space="preserve">
+    <value>Traiter l'écart de l'objectif ?</value>
+  </data>
+  <data name="Trimestral" xml:space="preserve">
+    <value>Trimestriel</value>
+  </data>
+  <data name="Trimestre" xml:space="preserve">
+    <value>Trimestre</value>
+  </data>
+  <data name="UM_IC" xml:space="preserve">
+    <value>Elément de contrôle de l' Unité de Mesure</value>
+  </data>
+  <data name="UM_IV" xml:space="preserve">
+    <value>Element de l'unité de mesure</value>
+  </data>
+  <data name="UndMedComp" xml:space="preserve">
+    <value>Unité de mesure composé de</value>
+  </data>
+  <data name="UndMedSelTipo" xml:space="preserve">
+    <value>Sélectionnez le type de</value>
+  </data>
+  <data name="UnidadeBase" xml:space="preserve">
+    <value>L'unité de base</value>
+  </data>
+  <data name="UnidadeMedida" xml:space="preserve">
+    <value>L'unité de mesure</value>
+  </data>
+  <data name="UnidadeMedidaBaseItens" xml:space="preserve">
+    <value>Elements des Unités de mesure</value>
+  </data>
+  <data name="UnidMedComposta" xml:space="preserve">
+    <value>Unité de mesure composé de</value>
+  </data>
+  <data name="UnidMedSimples" xml:space="preserve">
+    <value>Unité de mesure simple</value>
+  </data>
+  <data name="UnMedFatorConversao" xml:space="preserve">
+    <value>Pour l'unité de référence, multiplié par</value>
+  </data>
+  <data name="UnMedFatorConversaoRef" xml:space="preserve">
+    <value>À{0}, multiplier par</value>
+  </data>
+  <data name="UnMedPadraoCat" xml:space="preserve">
+    <value>Référence de la Catégorie de l'unité de mesure</value>
+  </data>
+  <data name="UnMedTornarRef" xml:space="preserve">
+    <value>Reprendre ce nouveau symbole comme référence pour la catégorie</value>
+  </data>
+  <data name="UpdateSuccess" xml:space="preserve">
+    <value>Données de base modifiées avec succès</value>
+  </data>
+  <data name="UploadFail" xml:space="preserve">
+    <value>Échec lors de l'envoi du fichier.</value>
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
+    <value>Fichier envoyé avec succès</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Teste Usuário</value>
+  </data>
+  <data name="UserLogOff" xml:space="preserve">
+    <value>Aucun utilisateur connecté</value>
+  </data>
+  <data name="UtilizarMoedaDen" xml:space="preserve">
+    <value>Utilisez Dénominateur Devise</value>
+  </data>
+  <data name="UtilizarMoedaNum" xml:space="preserve">
+    <value>Utilisez Numérateur Devise</value>
+  </data>
+  <data name="ValAcumForecast1" xml:space="preserve">
+    <value>Prévision1 Valeur cumulée</value>
+  </data>
+  <data name="ValAcumForecast2" xml:space="preserve">
+    <value>Prévision2 Valeur cumulée</value>
+  </data>
+  <data name="ValAcumPrevisto" xml:space="preserve">
+    <value>Valeur cumulée planifiée</value>
+  </data>
+  <data name="ValAcumRealizado" xml:space="preserve">
+    <value>Valeur cumulée réelle</value>
+  </data>
+  <data name="Validacao" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="ValidateFaixaFarolItem" xml:space="preserve">
+    <value>Avant d'enregistrer un élément, le rang du voyant doit être enregistré.</value>
+  </data>
+  <data name="ValidateOperadorMax" xml:space="preserve">
+    <value>Opérateur maximum et valeur maximale doit être renseigné ou nul</value>
+  </data>
+  <data name="ValidateOperadorMin" xml:space="preserve">
+    <value>Opérateur minimum et  valeur minimale doit être renseigné ou nul</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Valores" xml:space="preserve">
+    <value>Valeurs</value>
+  </data>
+  <data name="ValoresMetas" xml:space="preserve">
+    <value>Valeurs objectif</value>
+  </data>
+  <data name="ValorMax" xml:space="preserve">
+    <value>Valeur maximale</value>
+  </data>
+  <data name="ValorMin" xml:space="preserve">
+    <value>Valeur minimale</value>
+  </data>
+  <data name="ValPontualForecast1" xml:space="preserve">
+    <value>Prévision1 Valeur ponctuelle</value>
+  </data>
+  <data name="ValPontualForecast2" xml:space="preserve">
+    <value>Prévision2 Valeur ponctuelle</value>
+  </data>
+  <data name="ValPontualPrevisto" xml:space="preserve">
+    <value>Valeur ponctuelle prévue</value>
+  </data>
+  <data name="ValPontualRealizado" xml:space="preserve">
+    <value>Valeur ponctuelle actuelle</value>
+  </data>
+  <data name="ValsAcum" xml:space="preserve">
+    <value>Valeurs cumulées</value>
+  </data>
+  <data name="ValsPontual" xml:space="preserve">
+    <value>Valeurs ponctuelles</value>
+  </data>
+  <data name="Verde" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="Vermelho" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="Vigente" xml:space="preserve">
+    <value>Actuel</value>
+  </data>
+  <data name="Visao" xml:space="preserve">
+    <value>Aperçu </value>
+  </data>
+  <data name="Visualizar" xml:space="preserve">
+    <value>Affichage</value>
+  </data>
+  <data name="VisualTelas" xml:space="preserve">
+    <value>Affichage écrans</value>
+  </data>
+  <data name="VolumeEstocado" xml:space="preserve">
+    <value>Volume stocké</value>
+  </data>
+  <data name="VolumeProduzido" xml:space="preserve">
+    <value>Volume fabriqué</value>
+  </data>
+  <data name="VolumeVendas" xml:space="preserve">
+    <value>Volume vendu</value>
+  </data>
+  <data name="Voto" xml:space="preserve">
+    <value>Voter</value>
+  </data>
+  <data name="WorkflowAcoes" xml:space="preserve">
+    <value>Flux des actions</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="MailBodyAcao" xml:space="preserve">
+    <value>Vous avez été affecté par {0} en tant que responsable des actions de son plan d'actions. Merci de consulter le menu "Tableau de bord Objectifs", onglet "Actions en attente de ma validation" du système MEREO-GR pour le valider ou, si vous y êtes  opposé, de le refuser.</value>
+  </data>
+  <data name="MailBodyWelcome" xml:space="preserve">
+    <value>Votre code utilisateur a été créé dans Mereo-GR.&lt;br&gt;
+Pour utiliser le logiciel,merci de saisir les références ci-dessous sur l'écran de connexion via l'adresse: https://magnesita.mereogr.com.br&lt;br&gt;
+&lt;br&gt;
+utilisateur: {0}&lt;br&gt;
+Mot de passe: {1}&lt;br&gt;
+&lt;br&gt;
+attention:&lt;br&gt;
+1) le mot de passe ci-dessus est temporaire et vous devez le changer immédiatement lors de votre première connexion&lt;br&gt;
+2) le processus d'authentification est sensible à la casse. Merci de saisir les informations d'identification exactement comme indiqué ci-dessus.&lt;br&gt;
+&lt;br&gt;
+En cas de doute ou de difficulté concernant le processus d'authentification, merci de contacter l'administrateur désigné pour votre secteur ou toute autre personne responsable.</value>
+  </data>
+  <data name="MailSubjectWelcome" xml:space="preserve">
+    <value>Bienvenue sur Mereo-GR</value>
+  </data>
+  <data name="UOM" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+</root>
