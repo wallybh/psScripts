@@ -17,3 +17,12 @@ function LoadConfig ([string]$path = $(throw "You must specify a config file"))
 	 $global:appSettings[$addNode.Key] = $value
 	}
 }
+
+$Logfile = "$psscriptroot\log.txt"
+
+Function LogWrite
+{
+   Param ([string]$logstring)
+
+   Add-content $Logfile -value $logstring
+}

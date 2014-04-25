@@ -1,12 +1,21 @@
 . .\LoadConfig
 
+$LogFile = $psscriptroot + "\logDeploy.txt"
+
+Invoke-BatchFile "%VS100COMNTOOLS%\vsvars32.bat"
+
 if(!$appSettings) 
 { 
-	write-debug "carregando configurações"
+	LogWrite "carregando configurações"
+	LogWrite "-------------------------------------------"
+	Write "carregando configurações"
 	LoadConfig .\app.config
 }
 
-write-debug "carregando comandos visual studio"
+LogWrite "carregando comandos visual studio"
+Write "carregando comandos visual studio"
+return;
+
 Invoke-BatchFile $appSettings['PATHVSCOMMANDLINE'] $appSettings['VAR1VSCOMMANDLINE'] 
 
 $LASTEXITCODE = 0;
