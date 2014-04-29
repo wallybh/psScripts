@@ -1,5 +1,4 @@
 function Get-MD5([System.IO.FileInfo] $file = $(throw 'Usage: Get-MD5 [System.IO.FileInfo]'))
-
 {
 
   $stream = $null;
