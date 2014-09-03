@@ -1,4 +1,4 @@
-function RegPonto ([string]$path = $(throw "You must specify a excel file"))
+function RegPonto ([string]$path = "C:\Users\wallison.santos\Google Drive\Wallison.Santos\Ponto.xlsx")
 {
 	if(!(Test-path $path))
 	{
