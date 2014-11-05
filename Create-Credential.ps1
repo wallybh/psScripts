@@ -12,14 +12,14 @@ function Create-Credential
     [OutputType([System.Management.Automation.PSCredential])]
     Param
     (
-        # 
+        # Nome do usuário
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=0)]
         [String]
         $UserName,
 
-        # Descrição da ajuda de parâm2
+        # Arquivo contendo a secure string
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=1)]
